@@ -1,0 +1,174 @@
+﻿:root {
+	--font-arabic: 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Amiri', Tahoma, Arial, sans-serif;
+	--accent: #815d2e;
+	--accent-soft: #f4efe6;
+	--ink: #1a1a1a;
+	--muted: #666;
+	--line: #e7dfd1;
+	--paper: #fcfbf8;
+	--card: #fff;
+	--radius: 16px;
+	--card-shadow: 0 14px 35px rgba(20, 18, 12, 0.08);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	direction: rtl;
+	text-align: right;
+	font-family: var(--font-arabic);
+	font-size: 18px;
+	line-height: 1.85;
+	color: var(--ink);
+	background: var(--paper);
+	overflow-wrap: break-word;
+}
+
+/* Enforce one Arabic font system-wide, including controls and pseudo-elements */
+*,
+*::before,
+*::after {
+	font-family: inherit;
+}
+
+input,
+textarea,
+select,
+button {
+	font-family: var(--font-arabic);
+}
+
+main {
+	width: min(1240px, calc(100% - 2rem));
+	margin: 0 auto;
+	padding: 2rem 0 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.8rem;
+	line-height: 1.2;
+	font-weight: 700;
+	color: var(--ink);
+}
+
+h1 {
+	font-size: clamp(2.2rem, 4vw, 3.4rem);
+}
+
+h2 {
+	font-size: clamp(1.5rem, 2.4vw, 2.3rem);
+}
+
+h3 {
+	font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+}
+
+p {
+	margin: 0 0 1rem;
+	color: var(--ink);
+}
+
+a {
+	color: var(--accent);
+	text-underline-offset: 0.15em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section + section {
+	margin-top: 1.2rem;
+}
+
+.surface {
+	background: var(--card);
+	border: 1px solid var(--line);
+	border-radius: var(--radius);
+}
+
+.section-shell {
+	padding: 1.4rem;
+}
+
+.section-head {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	gap: 0.8rem;
+	margin-bottom: 1rem;
+}
+
+.section-head p {
+	margin: 0;
+	color: var(--muted);
+}
+
+.eyebrow {
+	display: inline-block;
+	margin-bottom: 0.65rem;
+	font-size: 0.82rem;
+	font-weight: 700;
+	color: var(--accent);
+}
+
+.prose p,
+.prose ul,
+.prose ol {
+	margin-bottom: 1.2rem;
+}
+
+.prose li + li {
+	margin-top: 0.35rem;
+}
+
+/* Override legacy inline font-family in imported HTML fragments */
+.prose [style*='font-family'],
+.prose [style*='font-family:'],
+.prose font {
+	font-family: var(--font-arabic) !important;
+}
+
+.sr-only {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+@media (max-width: 900px) {
+	body {
+		font-size: 17px;
+	}
+
+	main {
+		width: min(100% - 1rem, 1240px);
+		padding-top: 1rem;
+	}
+
+	.section-head {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+

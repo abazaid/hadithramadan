@@ -1,0 +1,88 @@
+		<!DOCTYPE HTML>
+
+		<html b:render='false' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+		<head>
+
+		<b:include data='blog' name='all-head-content'/>
+
+		<title><data:blog.pageTitle/></title>
+
+		<b:if cond='data:blog.pageType == "item"'>
+
+		<link expr:href='"https://hadith-ramadan.com?b2w="+data:blog.url' rel='canonical'/>
+
+		<meta expr:content='"0;url=https://hadith-ramadan.com?b2w="+data:blog.url' http-equiv='refresh'/>
+
+		<b:else/>
+
+		<link href='https://hadith-ramadan.com' rel='canonical'/>
+
+		<meta content='0;url=https://hadith-ramadan.com' http-equiv='refresh'/>
+
+		</b:if>
+
+		<b:skin>
+
+		<![CDATA[/*-----------------------------------------------
+
+		Blogger Template Style
+
+		Name: B2W
+
+		----------------------------------------------- */
+
+		]]>
+
+		</b:skin>
+
+		</head>
+
+		<body>
+
+		<b:section class='main' id='main' showaddelement='no'>
+
+		<b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'/>
+
+		</b:section>
+
+		<b:if cond='data:blog.pageType == "item"'>
+
+		<script type="text/javascript">
+
+		window.location.replace("https://hadith-ramadan.com/?b2w="+encodeURI(window.location.protocol + "//" + window.location.host+window.location.pathname));
+
+		</script>
+
+		<b:else/>
+
+		<script type="text/javascript">
+
+		window.location.replace("https://hadith-ramadan.com"+window.location.pathname);
+
+		</script>
+
+		</b:if>
+
+		<div style='margin: 0 auto;text-align:center;'> <h1>This Page</h1>
+
+		<p>has moved to a new address:</p>
+
+		<b:if cond='data:blog.pageType == "item"'>
+
+		<a expr:href='"https://hadith-ramadan.com?b2w="+data:blog.url'> <data:blog.pageTitle/> </a>
+
+		<b:else/>
+
+		<a href='https://hadith-ramadan.com'>https://hadith-ramadan.com</a>
+
+		</b:if>
+
+		<p>Sorry for the inconvenience… </p>
+
+		Redirection provided by <a href="http://rtcamp.com/" title="Blogger to WordPress Migration Service">Blogger to WordPress Migration Service</a></div>
+
+		</body>
+
+		</html>
+	

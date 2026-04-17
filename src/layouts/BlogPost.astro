@@ -1,0 +1,211 @@
+﻿---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import Header from '../components/Header.astro';
+import { slugifyLabel } from '../lib/blog';
+
+type Props = CollectionEntry<'blog'>['data'] & {
+	relatedPosts?: CollectionEntry<'blog'>[];
+};
+
+const { title, description, pubDate, updatedDate, heroImage, labels = [], relatedPosts = [] } = Astro.props;
+const seoKeywords = [
+	...labels,
+	title,
+	'حديث رمضان',
+	'مدونة الشيخ جواد عبد المحسن',
+	'مقالات إسلامية',
+	'مقالات سياسية',
+	'مقالات اقتصادية',
+];
+---
+
+<html lang="ar" dir="rtl">
+	<head>
+		<BaseHead title={title} description={description} keywords={seoKeywords} />
+		<style>
+			main {
+				width: min(1120px, calc(100% - 2rem));
+				padding-top: 1.4rem;
+			}
+
+			article {
+				display: grid;
+				gap: 1rem;
+			}
+
+			.post-shell {
+				padding: 1.8rem;
+			}
+
+			.hero-image img {
+				width: 100%;
+				max-height: 460px;
+				object-fit: cover;
+				border-radius: 28px;
+				box-shadow: var(--card-shadow);
+			}
+
+			.title-block {
+				padding-bottom: 1.1rem;
+				border-bottom: 1px solid rgba(35, 53, 45, 0.08);
+				margin-bottom: 1.3rem;
+			}
+
+			.meta-row {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.8rem 1.1rem;
+				margin-bottom: 0.9rem;
+				color: rgba(var(--muted), 1);
+				font-size: 0.95rem;
+			}
+
+			.label-row {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.55rem;
+				margin-top: 1rem;
+			}
+
+			.label-row a {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.42rem 0.8rem;
+				border-radius: 999px;
+				background: var(--accent-soft);
+				text-decoration: none;
+			}
+
+			.prose {
+				font-size: 1.08rem;
+				line-height: 2;
+			}
+
+			.prose > :first-child {
+				margin-top: 0;
+			}
+
+			.prose h2,
+			.prose h3,
+			.prose h4 {
+				margin-top: 2.2rem;
+				margin-bottom: 1rem;
+				padding-bottom: 0.55rem;
+				border-bottom: 1px solid rgba(35, 53, 45, 0.08);
+			}
+
+			.prose p {
+				margin-bottom: 1.2rem;
+				text-align: justify;
+			}
+
+			.prose ul,
+			.prose ol {
+				padding-inline-start: 1.3rem;
+			}
+
+			.prose li {
+				padding-right: 0.15rem;
+			}
+
+			.prose img {
+				display: block;
+				margin: 1.8rem auto;
+				box-shadow: var(--card-shadow);
+			}
+
+			.prose table {
+				display: block;
+				overflow-x: auto;
+				border-radius: 18px;
+			}
+
+			.prose th {
+				background: rgba(42, 64, 54, 0.08);
+			}
+
+			.prose blockquote {
+				background: rgba(181, 91, 45, 0.06);
+				border-radius: 0 18px 18px 0;
+				padding: 0.9rem 1.1rem 0.9rem 0.9rem;
+			}
+
+			.prose hr {
+				margin: 2rem 0;
+			}
+
+			.inline-seo-links {
+				margin-top: 1.8rem;
+				padding: 0.95rem 1rem;
+				border: 1px solid rgba(35, 53, 45, 0.12);
+				border-radius: 14px;
+				background: rgba(42, 64, 54, 0.04);
+			}
+
+			.inline-seo-links h2 {
+				margin: 0 0 0.6rem;
+				padding: 0;
+				border: 0;
+				font-size: 1.45rem;
+				text-align: right;
+			}
+
+			.inline-seo-links ul {
+				margin: 0;
+				padding-inline-start: 1.2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article>
+				{heroImage && <div class="hero-image"><Image width={1280} height={640} src={heroImage} alt="" /></div>}
+				<div class="post-shell surface">
+					<div class="title-block">
+						<p class="eyebrow">تدوينة</p>
+						<div class="meta-row">
+							<span><FormattedDate date={pubDate} /></span>
+							{updatedDate && <span>آخر تحديث <FormattedDate date={updatedDate} /></span>}
+						</div>
+						<h1>{title}</h1>
+						{
+							labels.length > 0 && (
+								<div class="label-row">
+									{labels.map((label) => (
+										<a href={`/topics/${slugifyLabel(label)}/`}>{label}</a>
+									))}
+								</div>
+							)
+						}
+					</div>
+
+					<div class="prose">
+						<slot />
+						{
+							relatedPosts.length > 0 && (
+								<aside class="inline-seo-links" aria-label="روابط داخلية داخل المقالة">
+									<h2>اقرأ أيضًا</h2>
+									<ul>
+										{relatedPosts.map((post) => (
+											<li>
+												<a href={`/${post.data.canonicalSlug}/`} title={`اقرأ أيضًا: ${post.data.title}`}>
+													{post.data.title}
+												</a>
+											</li>
+										))}
+									</ul>
+								</aside>
+							)
+						}
+					</div>
+				</div>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>

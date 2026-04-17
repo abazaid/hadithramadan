@@ -1,0 +1,25 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogPost from '../layouts/BlogPost.astro';
+import { getRelatedPosts } from '../lib/blog';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog', ({ data }) => !data.draft);
+	const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+	return sortedPosts.map((post) => ({
+		params: { slug: post.data.canonicalSlug },
+		props: {
+			post,
+			relatedPosts: getRelatedPosts(post, sortedPosts, 3),
+		},
+	}));
+}
+
+const { post, relatedPosts } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BlogPost {...post.data} relatedPosts={relatedPosts}>
+	<Content />
+</BlogPost>

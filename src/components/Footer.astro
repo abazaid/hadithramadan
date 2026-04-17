@@ -1,0 +1,106 @@
+﻿---
+import { FACEBOOK_URL, YOUTUBE_URL } from '../consts';
+---
+
+<footer class="site-footer">
+	<div class="shell">
+		<div class="top">
+			<div>
+				<h3>روابط مهمة</h3>
+				<ul>
+					<li><a href="/blog">المدونة</a></li>
+					<li><a href="/books">اجزاء كتاب حديث رمضان</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>حسابات رسمية</h3>
+				<ul>
+					<li><a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer">Facebook</a></li>
+					<li><a href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer">YouTube</a></li>
+					<li><a href="/">تواصل</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>النشرة البريدية</h3>
+				<p>اشترك ليصلك الجديد من المقالات والتنبيهات العلمية.</p>
+				<a class="cta" href="#newsletter">الاشتراك في النشرة</a>
+			</div>
+		</div>
+		<p class="note">مدونتنا مساحة معرفية تجمع المقالات العلمية والفكرية في تنظيم واضح وتجربة قراءة سريعة ومتجاوبة.</p>
+	</div>
+</footer>
+
+<style>
+	.site-footer {
+		margin-top: 2rem;
+		border-top: 1px solid var(--line);
+		background: #fff;
+	}
+
+	.shell {
+		width: min(1240px, calc(100% - 2rem));
+		margin: 0 auto;
+		padding: 2rem 0 2.5rem;
+	}
+
+	.top {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 1.3rem;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+		margin-bottom: 0.65rem;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li + li {
+		margin-top: 0.45rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: #33210f;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	.cta {
+		display: inline-block;
+		margin-top: 0.35rem;
+		background: #f6f0e6;
+		border: 1px solid #e6d8c4;
+		padding: 0.5rem 0.8rem;
+		border-radius: 8px;
+	}
+
+	p {
+		margin: 0;
+		color: #555;
+	}
+
+	.note {
+		margin-top: 1.4rem;
+		padding-top: 1rem;
+		border-top: 1px solid #f0e7db;
+		color: #7a6549;
+	}
+
+	@media (max-width: 980px) {
+		.shell {
+			width: min(100% - 1rem, 1240px);
+		}
+
+		.top {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

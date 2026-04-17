@@ -1,0 +1,254 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { FACEBOOK_URL, SITE_TITLE } from '../consts';
+
+const books = [
+	{ number: 1, title: 'حديث رمضان 1', href: 'https://drive.google.com/file/d/1jslDOC7RHBoK2Q_J9u6QSh_CpxS6w5Yg/view?usp=sharing' },
+	{ number: 2, title: 'حديث رمضان 2', href: 'https://drive.google.com/file/d/1kFrIVtLKgBWnTNBSRIXRGxbSQCnMb61z/view?usp=sharing' },
+	{ number: 3, title: 'حديث رمضان 3', href: 'https://sites.google.com/site/jawadco123/book3.pdf?attredirects=0&d=1' },
+	{ number: 4, title: 'حديث رمضان 4', href: 'https://sites.google.com/site/jawadco123/book4.pdf?attredirects=0&d=1' },
+	{ number: 5, title: 'حديث رمضان 5', href: 'https://sites.google.com/site/jawadco123/book5.pdf?attredirects=0&d=1' },
+	{ number: 6, title: 'حديث رمضان 6', href: 'https://sites.google.com/site/jawadco123/book6.pdf?attredirects=0&d=1' },
+	{ number: 7, title: 'حديث رمضان 7', href: 'https://sites.google.com/site/jawadco123/book7.pdf?attredirects=0&d=1' },
+	{ number: 8, title: 'حديث رمضان 8', href: 'https://sites.google.com/site/jawadco123/book8.pdf?attredirects=0&d=1' },
+	{ number: 9, title: 'حديث رمضان 9', href: 'https://sites.google.com/site/jawadco123/book9.pdf?attredirects=0&d=1' },
+	{ number: 10, title: 'حديث رمضان 10', href: 'https://sites.google.com/site/jawadco123/book10.pdf?attredirects=0&d=1' },
+	{ number: 11, title: 'حديث رمضان 11', href: 'https://sites.google.com/site/jawadco123/book11.pdf?attredirects=0&d=1' },
+	{ number: 12, title: 'حديث رمضان 12', href: 'https://drive.google.com/file/d/0B-KdPmiKXtsTZ1ItZWpLODNmSmM/view?usp=sharing' },
+	{ number: 13, title: 'حديث رمضان 13', href: 'https://drive.google.com/file/d/0B-KdPmiKXtsTaVFoNGZPTm4yWGM/view?usp=sharing' },
+	{ number: 14, title: 'حديث رمضان 14', href: 'https://drive.google.com/file/d/10afaDBD76KNjKgPoYGNM_XjT1COWVL5A/view?usp=sharing' },
+	{ number: 15, title: 'حديث رمضان 15', href: 'https://drive.google.com/file/d/1o1zc_QrGoKnO0trBLXsiJ8ejatztusLN/view?usp=sharing' },
+	{ number: 16, title: 'حديث رمضان 16', href: 'https://drive.google.com/file/d/1_6W6an6_WR2HABqPMWy7SSA5OM9rnvoM/view?usp=sharing' },
+	{ number: 17, title: 'حديث رمضان 17', href: 'https://drive.google.com/file/d/1q3StnT9sU9e15tsIP6eQyLf6iF-gmHtz/view?usp=sharing' },
+	{ number: 18, title: 'حديث رمضان 18', href: 'https://drive.google.com/file/d/1RKDoua3AoQBE5UPyVR0K3F0MjaPziJJv/view?usp=share_link' },
+	{ number: 19, title: 'حديث رمضان 19', href: 'https://drive.google.com/file/d/1bRFa-xd1tiyzzmzY4bHQ5bBRW86XWZya/view?usp=share_link' },
+	{ number: 20, title: 'حديث رمضان 20', href: 'https://drive.google.com/file/d/1_SM-K_xsAxnBHu6_-AVzxzcI39cZ8VrG/view?usp=share_link' },
+	{ number: 21, title: 'حديث رمضان 21', href: 'https://drive.google.com/file/d/1xlEbGG_L8_tkLS4v6hZatiX9pEkWFLi6/view?usp=share_link', note: 'رجال نصروا الرسول' },
+	{ number: 22, title: 'حديث رمضان 22', href: 'https://drive.google.com/file/d/1Tf0vVcMZSirKq31ucoRF5FvfK8rEFnDD/view?usp=sharing', note: 'حديث القلب لمن يحب' },
+	{ number: 23, title: 'حديث رمضان 23', href: 'https://drive.google.com/file/d/1Kg8YMsGjItz864db-T2K6bw43t0AAJie/view?usp=sharing' },
+	{ number: 24, title: 'حديث رمضان 24', href: 'https://drive.google.com/file/d/1Jm7GawKTHMOx_KQ1TvVxg6z8kuF2svq-/view?usp=sharing', note: 'قصة وشعر' },
+	{ number: 25, title: 'حديث رمضان 25', href: 'https://drive.google.com/file/d/1PZHtRfWefM5CEGGoye8Gd5IXdWxS9vVS/view?usp=sharing' },
+	{ number: 26, title: 'حديث رمضان 26', href: 'https://drive.google.com/file/d/1sqAmSSSRBqp_UAYUpEFd0tiR72I2rqWo/view?usp=sharing' },
+];
+
+const pageTitle = 'كتب حديث رمضان كاملة';
+const pageDescription =
+	'صفحة تجمع جميع أجزاء كتب حديث رمضان للشيخ جواد عبد المحسن بترتيب واضح وروابط مباشرة، مع فهرسة منظمة تسهّل الوصول إلى الأجزاء الكاملة والتحميل السريع.';
+const keywords = [
+	'كتب حديث رمضان',
+	'أجزاء كتاب حديث رمضان',
+	'تحميل كتب حديث رمضان',
+	'الشيخ جواد عبد المحسن',
+	'حديث رمضان pdf',
+];
+---
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+	<head>
+		<BaseHead title={pageTitle} description={pageDescription} keywords={keywords} />
+		<style>
+			.books-hero {
+				display: grid;
+				grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+				gap: 1rem;
+			}
+
+			.hero-card,
+			.meta-card,
+			.library-card {
+				padding: 1.7rem;
+			}
+
+			.hero-card h1 {
+				max-width: 10ch;
+				margin-bottom: 1rem;
+			}
+
+			.hero-card p,
+			.meta-card p {
+				color: rgba(var(--olive), 0.95);
+			}
+
+			.hero-actions {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.8rem;
+				margin-top: 1.4rem;
+			}
+
+			.primary-link,
+			.secondary-link {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0.92rem 1.2rem;
+				border-radius: 999px;
+				font-weight: 700;
+				text-decoration: none;
+			}
+
+			.primary-link {
+				background: #21362d;
+				color: #f8f4ea;
+			}
+
+			.secondary-link {
+				background: var(--accent-soft);
+				color: var(--accent-strong);
+			}
+
+			.meta-list {
+				display: grid;
+				gap: 0.9rem;
+				margin-top: 1rem;
+			}
+
+			.meta-item {
+				padding: 1rem 1.1rem;
+				border-radius: 20px;
+				background: rgba(255, 255, 255, 0.68);
+				border: 1px solid rgba(35, 53, 45, 0.08);
+			}
+
+			.meta-item strong {
+				display: block;
+				margin-bottom: 0.25rem;
+			}
+
+			.library-grid {
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 1rem;
+				margin-top: 1.2rem;
+			}
+
+			.book-card {
+				display: grid;
+				gap: 0.8rem;
+				padding: 1.2rem;
+				border-radius: 24px;
+				background: rgba(255, 255, 255, 0.82);
+				border: 1px solid rgba(35, 53, 45, 0.08);
+			}
+
+			.book-top {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 1rem;
+			}
+
+			.book-number {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				min-width: 3rem;
+				height: 3rem;
+				padding: 0 0.7rem;
+				border-radius: 999px;
+				background: #21362d;
+				color: #f8f4ea;
+				font-weight: 700;
+			}
+
+			.book-card h2 {
+				font-size: 1.25rem;
+				margin: 0;
+			}
+
+			.book-card p {
+				margin: 0;
+				color: rgba(var(--muted), 1);
+				font-size: 0.96rem;
+			}
+
+			.book-link {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0.85rem 1rem;
+				border-radius: 999px;
+				background: var(--accent-soft);
+				color: var(--accent-strong);
+				font-weight: 700;
+				text-decoration: none;
+			}
+
+			@media (max-width: 980px) {
+				.books-hero,
+				.library-grid {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="books-hero">
+				<div class="hero-card surface">
+					<p class="eyebrow">مكتبة الكتب</p>
+					<h1>أجزاء كتاب حديث رمضان</h1>
+					<p>
+						هذه الصفحة تجمع جميع أجزاء كتب حديث رمضان في مكان واحد، بترتيب واضح وروابط مباشرة تسهّل الوصول
+						إلى كل جزء من أجزاء السلسلة. تم إعدادها بصياغة أوضح وفهرسة أنسب للزائر ومحركات البحث.
+					</p>
+					<div class="hero-actions">
+						<a class="primary-link" href="#library">تصفح جميع الأجزاء</a>
+						<a class="secondary-link" href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer">التواصل عبر فيسبوك</a>
+					</div>
+				</div>
+
+				<aside class="meta-card surface">
+					<p class="eyebrow">معلومات سريعة</p>
+					<h2>فهرس واحد لجميع الكتب</h2>
+					<div class="meta-list">
+						<div class="meta-item">
+							<strong>{books.length} جزءًا</strong>
+							<span>روابط مرتبة لأجزاء حديث رمضان كاملة</span>
+						</div>
+						<div class="meta-item">
+							<strong>تنظيم أوضح</strong>
+							<span>عرض مريح للقراءة والوصول السريع لكل جزء</span>
+						</div>
+						<div class="meta-item">
+							<strong>صفحة قوية سيو</strong>
+							<span>عنوان ووصف ومحتوى مخصص لفهرسة صفحة الكتب بشكل أفضل</span>
+						</div>
+					</div>
+				</aside>
+			</section>
+
+			<section id="library" class="library-card surface">
+				<div class="section-head">
+					<div>
+						<p class="eyebrow">الفهرس الكامل</p>
+						<h2>جميع أجزاء كتاب حديث رمضان</h2>
+					</div>
+					<p>روابط الأجزاء مرتبة كما وردت في الصفحة الأصلية، مع تحسين العرض والتنظيم داخل الموقع الجديد.</p>
+				</div>
+
+				<div class="library-grid">
+					{
+						books.map((book) => (
+							<article class="book-card">
+								<div class="book-top">
+									<h2>{book.title}</h2>
+									<span class="book-number">{book.number}</span>
+								</div>
+								<p>{book.note ? `وصف مختصر: ${book.note}` : 'جزء من سلسلة كتب حديث رمضان.'}</p>
+								<a class="book-link" href={book.href} target="_blank" rel="noopener noreferrer">
+									فتح الجزء
+								</a>
+							</article>
+						))
+					}
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "hadithramadan",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "import:blogger": "node ./scripts/import-blogger.mjs",
+    "redirects:build": "node ./scripts/build-redirect-assets.mjs",
+    "predev": "npm run import:blogger && npm run redirects:build",
+    "prebuild": "npm run import:blogger && npm run redirects:build",
+    "dev": "astro dev",
+    "build": "node ./scripts/safe-astro-build.mjs",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.3",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.1.7",
+    "sharp": "^0.34.3"
+  }
+}

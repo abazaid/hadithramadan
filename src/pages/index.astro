@@ -1,0 +1,337 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getLabelHref, getSortedPosts } from '../lib/blog';
+
+const posts = await getSortedPosts();
+const latestPosts = posts.slice(0, 4);
+const aqeedahPosts = posts.slice(4, 10);
+const fatawaPosts = posts.slice(10, 16);
+const ragaeqPosts = posts.slice(16, 22);
+const seriesPosts = posts.slice(22, 28);
+
+const sectionLinks = Array.from(
+	new Map(
+		posts
+			.flatMap((post) => post.data.labels)
+			.map((label) => [label, { label, href: getLabelHref(label) }]),
+	).values(),
+).slice(0, 8);
+---
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.home-grid {
+				display: grid;
+				grid-template-columns: minmax(0, 1fr) 320px;
+				gap: 1rem;
+				align-items: start;
+			}
+
+			.main-column {
+				display: grid;
+				gap: 1rem;
+			}
+
+			.search-box input {
+				width: 100%;
+				height: 44px;
+				border: 1px solid #dbcdb8;
+				border-radius: 10px;
+				padding: 0 0.8rem;
+				font: inherit;
+				background: #fff;
+			}
+
+			.list {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			.list li + li {
+				margin-top: 0.9rem;
+				padding-top: 0.9rem;
+				border-top: 1px dashed #e8dcc9;
+			}
+
+			.list h3,
+			.list h4 {
+				margin: 0 0 0.35rem;
+				font-size: 1.16rem;
+			}
+
+			.list p {
+				margin: 0;
+				color: #666;
+				font-size: 0.95rem;
+			}
+
+			.list time {
+				display: inline-block;
+				margin-bottom: 0.2rem;
+				color: #8f7a5e;
+				font-size: 0.88rem;
+			}
+
+			.split-section {
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 1rem;
+			}
+
+			.topics-links {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.55rem;
+			}
+
+			.topics-links a {
+				background: #f7f2e9;
+				border: 1px solid #e7dac6;
+				border-radius: 999px;
+				padding: 0.35rem 0.7rem;
+				text-decoration: none;
+				color: #5f431d;
+				font-size: 0.9rem;
+			}
+
+			.newsletter {
+				background: #f9f6ef;
+				border: 1px solid #eadfce;
+				border-radius: 12px;
+				padding: 1rem;
+			}
+
+			.newsletter form {
+				display: grid;
+				gap: 0.5rem;
+				margin-top: 0.8rem;
+			}
+
+			.newsletter input {
+				height: 42px;
+				border: 1px solid #d9c8ae;
+				border-radius: 8px;
+				padding: 0 0.7rem;
+				font: inherit;
+			}
+
+			.newsletter button {
+				height: 42px;
+				border: 1px solid #8b6536;
+				background: #8b6536;
+				color: #fff;
+				border-radius: 8px;
+				font: inherit;
+				cursor: pointer;
+			}
+
+			aside {
+				display: grid;
+				gap: 1rem;
+				position: sticky;
+				top: 0.75rem;
+			}
+
+			aside .box {
+				background: #fff;
+				border: 1px solid var(--line);
+				border-radius: 12px;
+				padding: 1rem;
+			}
+
+			aside .box h3 {
+				margin: 0 0 0.75rem;
+				font-size: 1.05rem;
+			}
+
+			aside .box ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			aside .box li + li {
+				margin-top: 0.45rem;
+				padding-top: 0.45rem;
+				border-top: 1px dashed #eadfce;
+			}
+
+			aside .box a {
+				text-decoration: none;
+				color: #35200f;
+			}
+
+			@media (max-width: 1080px) {
+				.home-grid {
+					grid-template-columns: 1fr;
+				}
+
+				aside {
+					position: static;
+				}
+			}
+
+			@media (max-width: 760px) {
+				.split-section {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="home-grid">
+				<div class="main-column">
+					<section class="surface section-shell search-box">
+						<label for="search-input" class="sr-only">البحث</label>
+						<input id="search-input" type="search" placeholder="البحث" />
+					</section>
+
+					<section class="surface section-shell">
+						<div class="section-head">
+							<h2>آخر المقالات</h2>
+							<a href="/blog">تصفح الكل</a>
+						</div>
+						<ul class="list">
+							{
+								latestPosts.map((post) => (
+									<li>
+										<time datetime={post.data.pubDate.toISOString()}>
+											{post.data.pubDate.toLocaleDateString('ar')}
+										</time>
+										<h3>
+											<a href={`/${post.data.canonicalSlug}/`}>{post.data.title}</a>
+										</h3>
+										<p>{post.data.description}</p>
+									</li>
+								))
+							}
+						</ul>
+					</section>
+
+					<section class="surface section-shell">
+						<div class="section-head">
+							<h2>كتب ورسائل الشيخ</h2>
+							<a href="/books">تنزيل الكتب</a>
+						</div>
+						<p>مكتبة منظمة للكتب والرسائل المطبوعة، مع وصول سريع للمواد التعليمية.</p>
+					</section>
+
+					<section class="split-section">
+						<section class="surface section-shell">
+							<h2>قضايا وتأصيلات</h2>
+							<ul class="list">
+								{
+									aqeedahPosts.map((post) => (
+										<li>
+											<time datetime={post.data.pubDate.toISOString()}>
+												{post.data.pubDate.toLocaleDateString('ar')}
+											</time>
+											<h4>
+												<a href={`/${post.data.canonicalSlug}/`}>{post.data.title}</a>
+											</h4>
+										</li>
+									))
+								}
+							</ul>
+						</section>
+
+						<section class="surface section-shell">
+							<h2>فتاوى</h2>
+							<ul class="list">
+								{
+									fatawaPosts.map((post) => (
+										<li>
+											<time datetime={post.data.pubDate.toISOString()}>
+												{post.data.pubDate.toLocaleDateString('ar')}
+											</time>
+											<h4>
+												<a href={`/${post.data.canonicalSlug}/`}>{post.data.title}</a>
+											</h4>
+										</li>
+									))
+								}
+							</ul>
+						</section>
+					</section>
+
+					<section class="split-section">
+						<section class="surface section-shell">
+							<h2>سلاسل مهمة</h2>
+							<ul class="list">
+								{
+									seriesPosts.map((post) => (
+										<li>
+											<h4>
+												<a href={`/${post.data.canonicalSlug}/`}>{post.data.title}</a>
+											</h4>
+											<p>{post.data.description}</p>
+										</li>
+									))
+								}
+							</ul>
+						</section>
+
+						<section class="surface section-shell">
+							<h2>رقائق</h2>
+							<ul class="list">
+								{
+									ragaeqPosts.map((post) => (
+										<li>
+											<time datetime={post.data.pubDate.toISOString()}>
+												{post.data.pubDate.toLocaleDateString('ar')}
+											</time>
+											<h4>
+												<a href={`/${post.data.canonicalSlug}/`}>{post.data.title}</a>
+											</h4>
+										</li>
+									))
+								}
+							</ul>
+						</section>
+					</section>
+
+					<section id="newsletter" class="newsletter">
+						<h2>النشرة البريدية</h2>
+						<p>اشترك ليصلك جديد المقالات الأسبوعية في الفكر والقضايا المعاصرة.</p>
+						<form>
+							<input type="email" placeholder="البريد الإلكتروني" />
+							<button type="button">تسجيـــل</button>
+						</form>
+					</section>
+				</div>
+
+				<aside>
+					<section class="box">
+						<h3>الأقسام</h3>
+						<div class="topics-links">
+							{
+								sectionLinks.map((item) => (
+									<a href={item.href}>{item.label}</a>
+								))
+							}
+						</div>
+					</section>
+					<section class="box">
+						<h3>روابط سريعة</h3>
+						<ul>
+							<li><a href="/blog">المدونة العلمية</a></li>
+							<li><a href="/books">الكتب</a></li>
+							<li><a href="/topics/حديث-رمضان-18/">الدراسات الحديثية</a></li>
+							<li><a href="/topics/حديث-رمضان-16/">الفقه</a></li>
+						</ul>
+					</section>
+				</aside>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

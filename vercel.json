@@ -1,0 +1,1719 @@
+{
+  "redirects": [
+    {
+      "source": "/2009/11/1.html",
+      "destination": "/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-1/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_2026.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B9%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_23.html",
+      "destination": "/%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D9%88%D8%B3%D8%A8%D8%A8-%D8%A5%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81%D9%87%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_24.html",
+      "destination": "/%D9%88%D8%A7%D8%AC%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%85%D8%A9-%D8%A7%D9%84%D9%88%D8%B3%D8%B7/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_25.html",
+      "destination": "/%D9%85%D9%80%D9%81%D9%80%D9%87%D9%80%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D9%86%D9%87%D9%80%D8%B2%D8%A7%D9%85%D9%80%D9%8A%D9%80%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_29.html",
+      "destination": "/%D8%A3%D8%AC%D8%B2%D8%A7%D8%A1-%D9%83%D8%AA%D8%A7%D8%A8-%D8%AD%D8%AF%D9%8A%D8%AB-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D9%83%D8%A7%D9%85%D9%84%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_2955.html",
+      "destination": "/%D8%B5%D9%80%D8%B1%D8%AE%D9%80%D8%A9-%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D8%A5%D8%B3%D9%80%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_5059.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D9%80%D9%80%D9%8A%D9%80%D9%80%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_7099.html",
+      "destination": "/%D8%A7%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%AF%D8%B9%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%B2%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D9%84%D9%8A%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9-%D9%84%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%BA%D8%B2%D9%88-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_7136.html",
+      "destination": "/%D8%AA%D8%BA%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%87%D9%8A%D9%85-%D8%AA%D8%A7%D8%A8%D8%B9-%D9%84%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%BA%D8%B2%D9%88-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_7716.html",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D9%81%D8%A7%D8%B9-%D8%A8%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A7%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_8350.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%84%D8%A7%D8%AD-7239695546800368270/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_8996.html",
+      "destination": "/%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%BA%D8%B2%D9%88-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%A8%D8%B4%D9%8A%D8%B1-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%B1%D8%A7%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post_9087.html",
+      "destination": "/%D8%A7%D9%84%D8%BA%D8%B2%D9%88-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A-%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D9%88%D8%A3%D9%87%D8%AF%D8%A7%D9%81-8446142663215130858/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/11/blog-post.html",
+      "destination": "/%D8%A7%D8%B7%D9%84%D8%A7%D9%82-%D9%85%D8%AF%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%AC%D9%88%D8%A7%D8%AF-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D9%87%D8%B4%D9%84%D9%85%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/12/blog-post_13.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%84%D8%A7%D8%AD/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/12/blog-post_2484.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%B1%D9%82%D9%85-%D9%88-%D8%A7%D9%84%D8%B9%D8%AF%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/12/blog-post_25.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/12/blog-post_4994.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D9%83%D8%AB%D8%B1%D9%8A%D8%A9-%D9%88-%D8%A7%D9%84%D8%A3%D9%82%D9%84%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/12/blog-post_7638.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D8%AF%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%B9%D9%86%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2009/12/blog-post.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%A8%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2010/03/blog-post.html",
+      "destination": "/%D9%84%D8%A7-%D8%AA%D8%B3%D9%84%D9%85%D9%88%D8%A7-%D8%A8%D8%B1%D8%AF-%D8%A7%D9%84%D9%86%D8%A8%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2010/08/8.html",
+      "destination": "/%D8%AD%D8%AF%D9%8A%D8%AB-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-8/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_1133.html",
+      "destination": "/%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%A7%D9%84%D8%AF-%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%88%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_12.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%86%D8%B9%D9%85%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_1786.html",
+      "destination": "/%D8%AD%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AF%D8%B9%D9%88%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D9%82%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_2574.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D8%AF%D8%B1%D8%A7%D9%83-%D8%A8%D9%8A%D9%86-%D8%B3%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%D9%87%D8%A9-%D9%88%D8%A8%D9%84%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D9%83%D9%8A%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_2659.html",
+      "destination": "/%D8%AD%D9%82-%D8%A7%D9%84%D8%AA%D8%A3%D8%AF%D9%8A%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_2686.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D8%AE%D9%84%D8%A7%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_3592.html",
+      "destination": "/%D8%B4%D9%83%D8%B1-%D8%A7%D9%84%D9%86%D8%B9%D9%85%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_4759.html",
+      "destination": "/%D8%AC%D8%AD%D9%88%D8%AF-%D8%A7%D9%84%D9%86%D8%B9%D9%85%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_4767.html",
+      "destination": "/%D8%A7%D9%84%D8%A5%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%D9%84%D9%83%D9%81%D8%A7%D8%A6%D9%8A-%D9%84%D9%84%D8%AF%D9%88%D9%84%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_4929.html",
+      "destination": "/%D9%81%D8%B6%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D8%AF%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_582.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%B4%D9%82%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_6058.html",
+      "destination": "/%D8%A7%D9%84%D9%86%D8%B8%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_7209.html",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D8%AF-%D9%88%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9-%D8%AA%D9%85%D9%8A%D8%B2-%D9%88%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_7407.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D8%A8%D9%8A%D9%86-%D9%85%D8%B9%D8%A7%D8%B1%D9%83-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_903.html",
+      "destination": "/%D8%A7%D9%84%D9%86%D8%B5%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%85%D8%A8%D8%AF%D8%A6%D9%8A-%D9%88-%D9%88%D8%AC%D9%88%D8%A8-%D9%86%D8%B5%D8%B1%D8%AA%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post_9270.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%B9%D8%A8%D8%AB/",
+      "permanent": true
+    },
+    {
+      "source": "/2011/02/blog-post.html",
+      "destination": "/%D9%82%D8%B5%D9%8A%D8%AF%D8%A9-%D9%84%D9%81%D8%B6%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%81%D9%8A-%D8%B9%D8%B2%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF-%D9%87%D9%85%D8%A7%D9%85-%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post_1800.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D9%81%D8%B9%D8%A7%D9%84-%D9%88%D8%B1%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%A3%D9%81%D8%B9%D8%A7%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post_206.html",
+      "destination": "/%D8%A7%D9%84%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B6/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post_2298.html",
+      "destination": "/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post_3342.html",
+      "destination": "/%D9%88%D9%83%D8%B0%D9%84%D9%83-%D9%86%D9%88%D9%84%D9%8A-%D8%A8%D8%B9%D8%B6-%D8%A7%D9%84%D8%B8%D8%A7%D9%84%D9%85%D9%8A%D9%86-%D8%A8%D8%B9%D8%B6%D8%A7-%D8%A8%D9%85%D8%A7-%D9%83%D8%A7%D9%86%D9%88%D8%A7-%D9%8A%D9%83%D8%B3%D8%A8%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post_4927.html",
+      "destination": "/%D8%A7%D9%84%D9%83%D8%B1%D8%A8-%D9%88-%D8%A7%D9%84%D9%81%D8%B1%D8%AC/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post_6747.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D9%85-%D9%88-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1-%D9%88-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D8%AF-%D9%88-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post_8.html",
+      "destination": "/%D9%88%D9%84%D8%A7-%D8%AA%D9%85%D9%86%D9%86-%D8%AA%D8%B3%D8%AA%D9%83%D8%AB%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/10/blog-post.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%85%D8%B1%D8%B6/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/11/blog-post_1468.html",
+      "destination": "/%D9%83%D8%AA%D9%85-%D8%A7%D9%84%D8%B9%D9%84%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/11/blog-post_28.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B6%D8%B9%D8%A7%D9%81-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%83%D8%A8%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/11/blog-post_3962.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%83%D9%84%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2012/11/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D9%81%D8%B9%D8%A7%D9%84-%D9%88%D8%B1%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%A3%D9%81%D8%B9%D8%A7%D9%84-6444970956159876357/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/07/11.html",
+      "destination": "/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AD%D8%AF%D9%8A%D8%AB-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-11/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/07/blog-post_10.html",
+      "destination": "/%D9%86%D8%A7%D8%B1-%D8%AD%D8%A7%D9%85%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/07/blog-post_16.html",
+      "destination": "/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D8%AA%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/07/blog-post_8313.html",
+      "destination": "/%D8%AD%D9%82-%D8%A7%D9%84%D9%82%D9%88%D8%A9-%D8%A7%D9%85-%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%AD%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/07/blog-post.html",
+      "destination": "/%D9%88%D9%85%D8%A7-%D8%A3%D8%B1%D8%B3%D9%84%D9%86%D8%A7%D9%83-%D8%A5%D9%84%D8%A7-%D8%B1%D8%AD%D9%85%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%86-%D8%B3%D9%85%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/08/blog-post_1.html",
+      "destination": "/%D8%A7%D9%84%D9%80%D9%80%D8%BA%D9%80%D9%80%D8%B4/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/08/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A6%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_10.html",
+      "destination": "/%D8%AD%D8%AF%D9%8A%D8%AB-%D8%A7%D9%84%D8%A7%D8%A8%D8%B1%D8%B5-%D9%88%D8%A7%D9%84%D8%A7%D9%82%D8%B1%D8%B9-%D9%88%D8%A7%D9%84%D8%A7%D8%B9%D9%85%D9%89/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_115.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D9%84%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D8%AD%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_1607.html",
+      "destination": "/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_3447.html",
+      "destination": "/%D8%A7%D9%86%D9%85%D8%A7-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%83%D9%88%D9%86-%D9%86%D8%AC%D8%B3/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_5107.html",
+      "destination": "/%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD-%D9%88%D8%A7%D9%84%D9%81%D8%B4%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_5937.html",
+      "destination": "/%D9%88%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%A1-%D8%A8%D9%86%D9%8A%D9%86%D8%A7%D9%87%D8%A7-%D8%A8%D8%A3%D9%8A%D9%8A%D8%AF-%D9%88%D8%A5%D9%86%D8%A7-%D9%84%D9%85%D9%88%D8%B3%D8%B9%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_6237.html",
+      "destination": "/%D8%AB%D9%85-%D9%85%D8%A7%D8%B0%D8%A7-%D9%88%D8%A8%D8%B9%D8%AF%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_6493.html",
+      "destination": "/%D8%A7%D9%84%D9%81%D9%82%D8%B1-%D9%88%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D8%A7%D9%81%D9%82%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_8611.html",
+      "destination": "/%D8%A7%D9%84%D9%80%D9%80%D9%80%D9%88%D8%B9%D9%80%D9%80%D9%80%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_8925.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%A7%D8%AF%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_9.html",
+      "destination": "/%D9%88%D9%84%D8%A7-%D8%AA%D9%87%D9%86%D9%88%D8%A7-%D9%88%D9%84%D8%A7-%D8%AA%D8%AD%D8%B2%D9%86%D9%88%D8%A7-%D9%88%D8%A3%D9%86%D8%AA%D9%85-%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D9%88%D9%86-%D8%A5%D9%86-%D9%83%D9%86%D8%AA%D9%85-%D9%85%D8%A4%D9%85%D9%86%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post_9238.html",
+      "destination": "/%D8%A7%D9%84%D9%80%D9%80%D9%88%D9%87%D9%80%D9%80%D9%80%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2013/12/blog-post.html",
+      "destination": "/%D9%81%D9%80%D8%B7%D9%80%D9%80%D8%B1%D8%A9-%D8%A7%D9%84%D9%84%D9%80%D9%80%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/01/blog-post_22.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%88%D9%85%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D8%A7%D9%85%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%83%D8%AF%D8%B3%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/01/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%B0%D9%83%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%A7%D9%86%D9%88%D8%AB%D8%A9-%D9%88%D8%A7%D9%84%D8%B1%D8%AC%D9%88%D9%84%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/07/blog-post_28.html",
+      "destination": "/%D8%A7%D9%84%D8%B1%D9%88%D8%AD-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/07/blog-post_30.html",
+      "destination": "/%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9-%D8%A7%D9%84%D8%B3%D9%85%D9%83%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/07/blog-post_31.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/07/blog-post_77.html",
+      "destination": "/%D9%85%D9%88%D8%A7%D9%86%D8%B9-%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/07/blog-post.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%88%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_10.html",
+      "destination": "/%D8%A7%D9%84%D8%BA%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D9%85%D9%84%D9%83-3166063534511892098/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_11.html",
+      "destination": "/%D8%B9%D8%A7%D9%84%D9%85-%D9%88%D8%AA%D9%84%D9%85%D9%8A%D8%B0/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_12.html",
+      "destination": "/%D8%AA%D9%88%D8%A8%D8%A9-%D9%85%D8%A7%D9%84%D9%83-%D8%A8%D9%86-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1-%D9%82%D8%B5%D8%A9-%D8%B1%D8%A7%D8%A6%D8%B9%D8%A9-%D9%88%D9%85%D8%A4%D8%AB%D8%B1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_13.html",
+      "destination": "/%D8%A7%D9%84%D8%B1%D8%AC%D8%B3/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_16.html",
+      "destination": "/%D8%AC%D8%B3%D8%B1-%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D8%B5%D9%87%D8%A7%D9%8A%D9%86%D8%A9-%D8%AF%D8%B1%D9%8A%D8%A9-%D8%B4%D9%81%D9%8A%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_17.html",
+      "destination": "/%D9%88%D9%84%D9%88-%D9%83%D9%86%D8%AA-%D9%81%D8%B8%D8%A7-%D8%BA%D9%84%D9%8A%D8%B8-%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D9%84%D8%A7%D9%86%D9%81%D8%B6%D9%88%D8%A7-%D9%85%D9%86-%D8%AD%D9%88%D9%84%D9%83/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_18.html",
+      "destination": "/%D8%A7%D9%84%D8%AB%D9%82%D9%84%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_2.html",
+      "destination": "/%D8%A7%D9%84%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9-%D8%A8%D9%8A%D9%86-%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D8%B9-%D9%88%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D9%82%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_21.html",
+      "destination": "/%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_22.html",
+      "destination": "/%D9%84%D9%8A%D9%86-%D8%A7%D9%84%D8%AF%D8%A7%D8%B9%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_23.html",
+      "destination": "/%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%A1-%D9%88-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_25.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%B7%D9%87%D8%A7%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_26.html",
+      "destination": "/%D9%88%D8%A8%D8%B4%D8%B1-%D8%A7%D9%84%D8%B5%D8%A7%D8%A8%D8%B1%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_27.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_3.html",
+      "destination": "/%D8%A7%D9%84%D8%B3%D9%85%D8%B9-%D9%88%D8%A7%D9%84%D8%A8%D8%B5%D8%B1-8794750883152737297/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_33.html",
+      "destination": "/%D8%A7%D9%84%D8%AC%D8%B0%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%AD%D8%B1%D9%83%D8%A9-%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_37.html",
+      "destination": "/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D9%83%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_5.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%AF%D8%A8%D8%B1-%D9%84%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_57.html",
+      "destination": "/%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%AD%D8%B1%D9%83%D8%A9-%D9%85%D8%B4%D8%A8%D9%88%D9%87%D8%A9-%D9%88%D9%86%D9%87%D8%AC-%D8%AA%D8%BA%D8%B1%D9%8A%D8%A8%D9%8A%D9%89/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_6.html",
+      "destination": "/%D9%87%D8%AC%D8%B1-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_66.html",
+      "destination": "/%D9%8A%D8%B1%D9%8A%D8%AF%D9%88%D9%86-%D9%84%D9%8A%D8%B7%D9%81%D8%A6%D9%88%D8%A7-%D9%86%D9%88%D8%B1-%D8%A7%D9%84%D9%84%D9%87-%D8%A8%D8%A3%D9%81%D9%88%D8%A7%D9%87%D9%87%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_7.html",
+      "destination": "/%D9%8A%D8%A7-%D8%A3%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D8%B0%D9%8A%D9%86-%D8%A2%D9%85%D9%86%D9%88%D8%A7-%D8%A7%D8%AA%D9%82%D9%88%D8%A7-%D8%A7%D9%84%D9%84%D9%87-%D9%88%D9%84%D8%AA%D9%86%D8%B8%D8%B1-%D9%86%D9%81%D8%B3-%D9%85%D8%A7-%D9%82%D8%AF%D9%85%D8%AA-%D9%84%D8%BA%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_77.html",
+      "destination": "/%D8%A7%D9%84%D8%B1%D8%AC%D8%B2/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_8.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D8%A6%D8%B1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_9.html",
+      "destination": "/%D9%86%D9%81%D8%AD%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post_90.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/08/blog-post.html",
+      "destination": "/%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D9%82%D9%81-%D9%88%D8%A7%D8%AB%D8%B1%D9%87-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9/",
+      "permanent": true
+    },
+    {
+      "source": "/2014/11/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A9-%D9%88-%D8%A7%D9%84%D8%B9%D8%A8%D9%8A%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_0.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_1.html",
+      "destination": "/%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D8%A6%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B8%D9%84-%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_19.html",
+      "destination": "/%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%AE%D8%A7%D8%AA%D9%85%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_20.html",
+      "destination": "/%D8%B9%D9%84%D9%89-%D9%81%D8%B1%D8%A7%D8%B4-%D8%A7%D9%84%D9%85%D9%88%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_21.html",
+      "destination": "/%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85-6390423157020142372/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_23.html",
+      "destination": "/%D8%B3%D8%A4%D8%A7%D9%84%D9%87-%D9%88%D8%AC%D9%88%D8%A7%D8%A8%D9%87%D9%85-%D8%B9%D9%86%D8%B2%D8%A9-%D9%88%D9%84%D9%88-%D8%B7%D8%A7%D8%B1%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_24.html",
+      "destination": "/%D9%88%D8%AC%D8%B9%D9%84%D9%86%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%83%D9%84-%D8%B4%D9%89%D8%A1%D8%AD%D9%8A-%D8%A7%D9%81%D9%84%D8%A7-%D9%8A%D8%A4%D9%85%D9%86%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_27.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_28.html",
+      "destination": "/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_29.html",
+      "destination": "/%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D9%88%D8%A7%D9%84%D8%AE%D8%B1%D8%A7%D8%A6%D8%B7/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post_30.html",
+      "destination": "/%D8%A7%D9%84%D9%82%D9%88%D9%84-%D8%A7%D9%84%D9%81%D8%B5%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/06/blog-post.html",
+      "destination": "/%D8%B4%D8%B9%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/13.html",
+      "destination": "/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%83%D8%AA%D8%A7%D8%A8-%D8%AD%D8%AF%D9%8A%D8%AB-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-13-%D9%83%D8%A7%D9%85%D9%84%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_12.html",
+      "destination": "/%D8%A7%D9%84%D8%AE%D8%A7%D8%B7%D8%A6-%D9%88%D8%A7%D9%84%D9%85%D8%AE%D8%B7%D8%A6-%D9%88%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%B9%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_13.html",
+      "destination": "/%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D8%AA%D9%82%D9%88%D9%89-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D8%B6%D8%B1%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_2.html",
+      "destination": "/%D8%B6%D8%BA%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D9%82%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_4.html",
+      "destination": "/%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%A5%D8%B1%D8%A7%D8%AF%D8%A9-%D9%88%D8%AD%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AF%D8%B9%D9%88%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_5.html",
+      "destination": "/%D8%A5%D9%86-%D8%A7%D9%84%D9%88%D9%84%D8%AF-%D9%85%D8%A8%D8%AE%D9%84%D8%A9-%D9%85%D8%AC%D9%87%D9%84%D8%A9-%D9%85%D8%AC%D8%A8%D9%86%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_6.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_7.html",
+      "destination": "/%D9%83%D9%84%D9%85%D8%A9-%D8%AD%D9%82-%D8%B9%D9%86%D8%AF-%D8%B3%D9%84%D8%B7%D8%A7%D9%86-%D8%AC%D8%A7%D8%A6%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_8.html",
+      "destination": "/%D8%A3%D8%AD%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D9%82%D9%84%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post_9.html",
+      "destination": "/%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%AD%D9%82-%D9%88%D8%A7%D8%AD%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2015/07/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/02/12.html",
+      "destination": "/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%83%D8%AA%D8%A7%D8%A8-%D8%AD%D8%AF%D9%8A%D8%AB-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-12/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_10.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%BA%D8%A7%D9%84%D8%A8%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_11.html",
+      "destination": "/%D9%85%D8%B9%D8%A7%D9%88%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A8%D8%B7%D8%B1%D9%8A%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_12.html",
+      "destination": "/%D8%AF%D9%85%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_13.html",
+      "destination": "/%D8%A8%D8%B1-%D8%A7%D9%84%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_14.html",
+      "destination": "/%D8%B5%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A8%D8%A7%D9%84%D8%B9%D9%84%D9%85-%D9%88%D8%AA%D9%82%D9%88%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B1-%D9%88%D8%A7%D9%84%D8%B9%D9%84%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_15.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D9%81%D9%88-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_16.html",
+      "destination": "/%D8%A7%D9%84%D9%83%D9%8A%D8%B3-%D9%85%D9%86-%D8%AF%D8%A7%D9%86-%D9%86%D9%81%D8%B3%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_17.html",
+      "destination": "/%D8%A8%D9%8A%D9%86-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%84%D9%87-%D8%A8%D9%86-%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1-%D9%88%D8%A7%D9%85%D9%87-%D8%A7%D8%B3%D9%85%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_18.html",
+      "destination": "/%D9%85%D8%AA%D8%B5%D9%87%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D8%AE%D8%A7%D9%84%D8%AF-%D8%B2%D9%88%D8%A8%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_19.html",
+      "destination": "/%D8%A7%D9%84%D8%B4%D8%AC%D8%A7%D8%B9%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_20.html",
+      "destination": "/%D9%84%D8%A7-%D8%A3%D8%AD%D9%85%D8%AF-%D8%A5%D9%84%D8%A7-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_22.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D9%84%D8%A3/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_23.html",
+      "destination": "/%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%AD%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_24.html",
+      "destination": "/%D8%A2%D8%AF%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%B3/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_25.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_26.html",
+      "destination": "/%D9%85%D8%AF%D8%AD-%D8%A7%D9%84%D8%B3%D8%AE%D8%A7%D8%A1-%D9%88%D8%B0%D9%85-%D8%A7%D9%84%D8%A8%D8%AE%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_27.html",
+      "destination": "/%D8%AD%D9%82%D9%88%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_28.html",
+      "destination": "/%D9%88%D8%A3%D8%AC%D9%85%D9%84%D9%88%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B7%D9%84%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_29.html",
+      "destination": "/%D8%B3%D9%88%D8%A1-%D8%A7%D9%84%D8%B8%D9%86-%D8%A8%D8%A7%D9%84%D9%84%D9%87-%D8%AA%D8%B9%D8%A7%D9%84%D9%89/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_3.html",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%AD%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D9%85%D8%B1-%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%88%D9%81-%D9%88%D8%A7%D9%84%D9%86%D9%87%D9%8A-%D8%B9%D9%86-%D8%A7%D9%84%D9%85%D9%86%D9%83%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_30.html",
+      "destination": "/%D8%B9%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_36.html",
+      "destination": "/%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D9%88%D8%AD%D8%B4%D9%8A-%D9%82%D8%A7%D8%AA%D9%84-%D8%AD%D9%85%D8%B2%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_38.html",
+      "destination": "/%D9%86%D9%85%D8%A7%D8%B1%D8%B3-%D8%A7%D8%AE%D9%84%D8%A7%D9%82%D9%86%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_44.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%A7%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_51.html",
+      "destination": "/%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%B8%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_56.html",
+      "destination": "/%D8%B4%D9%88%D9%8A%D9%84-%D9%88%D9%83%D8%B1%D8%A7%D9%85%D8%A9-%D8%A8%D9%86%D8%AA-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%AD/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_6.html",
+      "destination": "/%D8%AF%D9%87%D8%A7%D8%A1-%D9%85%D8%B9%D8%A7%D9%88%D9%8A%D8%A9-%D9%88%D8%B0%D9%83%D8%A7%D8%A1-%D9%82%D9%8A%D8%B5%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_61.html",
+      "destination": "/%D9%86%D8%B5%D9%8A%D8%AD%D8%A9-%D8%A3%D8%A8%D9%8A-%D8%AD%D8%A7%D8%B2%D9%85-%D8%A7%D9%84%D8%AA%D8%A7%D8%A8%D8%B9%D9%8A-%D9%84%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D9%84%D9%83/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_62.html",
+      "destination": "/%D9%88%D9%84%D8%A7%D8%AA-%D8%AD%D9%8A%D9%86-%D9%85%D9%86%D8%A7%D8%B5/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_7.html",
+      "destination": "/%D9%82%D8%B5%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8%D8%AF-%D8%A7%D9%84%D8%B2%D8%A7%D9%87%D8%AF-%D8%B3%D9%81%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%81%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_70.html",
+      "destination": "/%D8%A7%D9%84%D9%88%D9%81%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D9%85%D8%B1%D9%88%D8%A1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_72.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%B3%D8%AE%D9%8A%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_8.html",
+      "destination": "/%D9%82%D8%B5%D8%A9-%D8%B5%D8%A7%D8%AD%D8%A8-%D8%A7%D9%84%D9%86%D9%82%D8%A8-%D9%8A%D9%88%D9%85-%D8%AA%D8%A8%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%B1%D8%A7%D8%A6%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_87.html",
+      "destination": "/%D9%82%D8%B5%D8%A9-%D8%A8%D9%87%D9%8A%D8%B3%D8%A9-%D8%A8%D9%86%D8%AA-%D8%A7%D9%88%D8%B3-%D8%A8%D9%86-%D8%AD%D8%A7%D8%B1%D8%AB%D8%A9-%D8%A8%D9%86-%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post_94.html",
+      "destination": "/%D8%B1%D9%81%D9%82%D8%A7-%D8%A8%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%B1%D9%8A%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/06/blog-post.html",
+      "destination": "/%D9%82%D8%B5%D8%A9-%D9%88%D8%B9%D8%A8%D8%B1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/07/blog-post_2.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D9%82-%D9%85%D8%B7%D9%84%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/07/blog-post_28.html",
+      "destination": "/%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/07/blog-post_3.html",
+      "destination": "/%D8%A7%D9%84%D8%AB%D9%82%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/07/blog-post_4.html",
+      "destination": "/%D9%88%D9%84%D8%A7-%D9%8A%D8%AD%D9%8A%D9%82-%D8%A7%D9%84%D9%85%D9%83%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%A6-%D8%A5%D9%84%D8%A7-%D8%A8%D8%A3%D9%87%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/07/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%A5%D9%8A%D9%85%D8%A7%D9%86-%D9%80-%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2016/08/14.html",
+      "destination": "/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%83%D8%AA%D8%A7%D8%A8-%D8%AD%D8%AF%D9%8A%D8%AB-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-14/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/05/15.html",
+      "destination": "/%D8%AD%D8%AF%D9%8A%D8%AB-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-15/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/05/blog-post_27.html",
+      "destination": "/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%A7%D9%84%D9%82%D9%84%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/05/blog-post_28.html",
+      "destination": "/%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D8%A7%D9%84%D8%A7%D8%A8%D9%8A%D8%B6/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/05/blog-post_29.html",
+      "destination": "/%D9%86%D8%B3%D9%88%D8%A7-%D8%A7%D9%84%D9%84%D9%87-%D9%81%D8%A3%D9%86%D8%B3%D8%A7%D9%87%D9%85-%D8%A3%D9%86%D9%81%D8%B3%D9%87%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/05/blog-post_31.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/05/blog-post.html",
+      "destination": "/%D9%85%D8%AD%D9%82%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B0%D9%86%D9%88%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_10.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%A7%D9%85%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_11.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D9%81%D9%83-%D9%88%D8%A7%D9%84%D8%A7%D9%81%D8%A7%D9%83/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_12.html",
+      "destination": "/%D8%A7%D9%84%D8%B2%D9%87%D8%AF-%D9%88%D8%A7%D9%84%D9%88%D8%B1%D8%B9/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_13.html",
+      "destination": "/%D9%88%D9%84%D8%AA%D9%86%D8%B8%D8%B1-%D9%86%D9%81%D8%B3-%D9%85%D8%A7-%D9%82%D8%AF%D9%85%D8%AA-%D9%84%D8%BA%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_14.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D9%85%D8%A9-%D8%A7%D9%84%D9%88%D8%B3%D8%B7/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_15.html",
+      "destination": "/%D9%86%D8%B8%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D9%84%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_16.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%80%D9%80%D9%80%D9%80%D9%80%D8%A8%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_17.html",
+      "destination": "/%D9%88%D8%A3%D9%86-%D8%A3%D8%B9%D9%85%D9%84-%D8%B5%D8%A7%D9%84%D8%AD%D8%A7-%D8%AA%D8%B1%D8%B6%D8%A7%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_18.html",
+      "destination": "/%D8%A3%D8%AF%D8%A8-%D8%A7%D9%84%D8%AE%D8%B7%D8%A7%D8%A8-%D9%85%D8%B9-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_19.html",
+      "destination": "/%D8%A3%D8%AD%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B3/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_2.html",
+      "destination": "/%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D9%82%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_23.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%A3%D9%84%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_3.html",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D9%8A%D9%81%D8%B9%D9%84%D9%88%D9%86-%D9%88%D9%8A%D8%B9%D9%85%D9%84%D9%88%D9%86-%D9%88%D9%8A%D8%B5%D9%86%D8%B9%D9%88%D9%86-%D9%81%D9%8A-%D9%86%D9%87%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A2%D9%8A%D8%A7%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_4.html",
+      "destination": "/%D9%85%D9%86%D9%87%D8%AC-%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_5.html",
+      "destination": "/%D8%AD%D8%A8%D9%84-%D8%A7%D9%84%D9%84%D9%87-%D9%88%D8%AD%D8%A8%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B3/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_54.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%AA%D8%B6%D8%AD%D9%8A%D8%A9-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_6.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%B4%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_7.html",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_8.html",
+      "destination": "/%D8%A7%D9%84%D8%AE%D8%B0%D9%84%D8%A7%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post_9.html",
+      "destination": "/%D8%A5%D8%B0%D8%A7-%D8%AC%D8%A7%D8%A1%D9%83-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D9%82%D9%88%D9%86-8216955449745944718/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/06/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A-%D9%84%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/07/blog-post_16.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D9%86%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/07/blog-post_18.html",
+      "destination": "/%D8%AF%D8%B1%D8%B3-%D9%85%D9%86-%D8%A7%D9%84%D9%87%D8%AC%D8%B1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/07/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%B5%D9%8A%D8%AF%D9%84%D8%A9-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/08/blog-post_15.html",
+      "destination": "/%D9%84%D8%B9%D9%85%D8%B1%D9%83-%D8%A5%D9%86%D9%87%D9%85-%D9%84%D9%81%D9%8A-%D8%B3%D9%83%D8%B1%D8%AA%D9%87%D9%85-%D9%8A%D8%B9%D9%85%D9%87%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/08/blog-post_18.html",
+      "destination": "/%D8%A7%D9%84%D8%AE%D8%B2%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/08/blog-post_24.html",
+      "destination": "/%D8%AD%D9%82-%D8%A7%D9%84%D9%82%D9%88%D8%A9-%D8%A7%D9%85-%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%AD%D9%82-7286274917570855236/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/08/blog-post.html",
+      "destination": "/%D9%81%D9%84%D8%A7-%D8%AA%D8%B9%D9%84%D9%85-%D9%86%D9%81%D8%B3-%D9%85%D8%A7-%D8%A3%D8%AE%D9%81%D9%89-%D9%84%D9%87%D9%85-%D9%85%D9%86-%D9%82%D8%B1%D8%A9-%D8%A3%D8%B9%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2017/10/blog-post.html",
+      "destination": "/%D8%A8%D8%B9%D8%B6%D9%86%D8%A7-%D9%84%D8%A8%D8%B9%D8%B6-%D9%81%D8%AA%D9%86%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_19.html",
+      "destination": "/%D8%A7%D9%84%D8%BA%D8%B1%D9%88%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_20.html",
+      "destination": "/%D8%A7%D9%84%D8%B4%D8%B9%D9%88%D8%A8%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_21.html",
+      "destination": "/%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_22.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%A3%D9%84%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-5704344100448903654/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_23.html",
+      "destination": "/%D9%87%D9%88-%D9%88%D8%AD%D8%AF%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_24.html",
+      "destination": "/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D9%85%D9%88%D9%87%D8%A7%D8%AA%D8%B4/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_25.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%8A%D8%A9-6491356491093312380/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_26.html",
+      "destination": "/%D9%81%D9%83%D9%84%D9%8A-%D9%88%D8%A7%D8%B4%D8%B1%D8%A8%D9%8A-%D9%88%D9%82%D8%B1%D9%8A-%D8%B9%D9%8A%D9%86%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_27.html",
+      "destination": "/%D9%86%D9%82%D8%B6-%D8%A7%D9%84%D8%B9%D9%87%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_28.html",
+      "destination": "/%D8%B4%D9%87%D9%8A%D9%82-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D8%A7%D9%84%D8%A7%D9%88%D9%84-%D8%AA%D8%B6%D8%AD%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D8%A7%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_29.html",
+      "destination": "/%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%B3-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_30.html",
+      "destination": "/%D8%B4%D9%88-%D8%AE%D8%B5%D9%86%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post_31.html",
+      "destination": "/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%AD%D8%B5%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%88%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/05/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D9%82%D8%AF%D8%B3-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_10.html",
+      "destination": "/%D8%A7%D9%83%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_11.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_12.html",
+      "destination": "/%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D8%B3%D8%AC%D9%86-%D8%A7%D9%84%D9%85%D8%A4%D9%85%D9%86-%D9%88%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%81%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_2.html",
+      "destination": "/%D9%81%D8%A3%D9%82%D9%85-%D9%88%D8%AC%D9%87%D9%83-%D9%84%D9%84%D8%AF%D9%8A%D9%86-%D8%AD%D9%86%D9%8A%D9%81%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_24.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D9%81%D8%B3%D8%A7%D8%AF/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_25.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%B9/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_28.html",
+      "destination": "/%D8%A7%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%81%D9%87%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_3.html",
+      "destination": "/%D8%A7%D9%84%D8%B3%D9%85%D8%B9-%D9%88%D8%A7%D9%84%D8%A8%D8%B5%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_4.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_6.html",
+      "destination": "/%D8%AD%D8%B5%D9%88%D9%86%D9%86%D8%A7-%D9%85%D9%87%D8%AF%D8%AF%D8%A9-%D9%85%D9%86-%D8%AF%D8%A7%D8%AE%D9%84%D9%87%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_7.html",
+      "destination": "/%D8%A5%D8%B0%D8%A7-%D8%AC%D8%A7%D8%A1%D9%83-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D9%82%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_8.html",
+      "destination": "/%D8%A7%D9%84%D8%BA%D9%81%D9%84%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_87.html",
+      "destination": "/%D8%AC%D9%88%D8%B9-%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%AF%D8%A7%D8%A1-%D9%88%D8%A8%D9%84%D8%A7%D8%A1-%D9%81%D8%AA%D8%B9%D9%88%D8%B0%D9%88%D8%A7-%D8%A8%D8%A7%D9%84%D9%84%D9%87-%D9%85%D9%86%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post_9.html",
+      "destination": "/%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/06/blog-post.html",
+      "destination": "/%D8%A8%D8%B0%D9%84-%D8%A7%D9%84%D9%87%D9%85%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/07/blog-post.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D9%86%D8%B5%D8%A7%D9%81/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_10.html",
+      "destination": "/%D8%AD%D8%A8-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D8%B5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%84%D9%8A%D9%87-%D9%88%D8%B3%D9%84%D9%85-%D9%84%D8%A3%D9%85%D8%AA%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_11.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D8%AA%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_12.html",
+      "destination": "/%D9%88%D9%85%D9%86-%D9%8A%D8%B3%D9%84%D9%85-%D9%88%D8%AC%D9%87%D9%87-%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D9%88%D9%87%D9%88-%D9%85%D8%AD%D8%B3%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_13.html",
+      "destination": "/%D8%A7%D9%84%D8%B2%D8%B9%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_14.html",
+      "destination": "/%D8%A7%D9%84%D8%A8%D8%A7%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_17.html",
+      "destination": "/%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_18.html",
+      "destination": "/%D9%82%D8%A7%D9%84-%D8%B1%D8%A8%D9%86%D8%A7-%D8%A7%D9%84%D8%B0%D9%8A-%D8%A3%D8%B9%D8%B7%D9%89-%D9%83%D9%84-%D8%B4%D9%8A%D8%A1-%D8%AE%D9%84%D9%82%D9%87-%D8%AB%D9%85-%D9%87%D8%AF%D9%89/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_19.html",
+      "destination": "/%D9%82%D8%B5%D8%A9-%D8%A3%D8%A8%D9%89-%D8%BA%D9%8A%D8%A7%D8%AB-%D8%A7%D9%84%D9%85%D9%83%D9%8A-%D9%88%D8%B2%D9%88%D8%AC%D8%AA%D9%87-%D9%84%D8%A8%D8%A7%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_20.html",
+      "destination": "/%D9%85%D9%86-%D8%AD%D9%85%D9%84-%D8%B9%D9%84%D9%8A%D9%86%D8%A7-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%AD/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_23.html",
+      "destination": "/%D8%A7%D9%84%D8%BA%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D9%85%D9%84%D9%83/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_24.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85-%D8%A7%D8%AE%D9%88-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_26.html",
+      "destination": "/%D9%8A%D8%B9%D8%B1%D9%81%D9%88%D9%86%D9%87-%D9%83%D9%85%D8%A7-%D9%8A%D8%B9%D8%B1%D9%81%D9%88%D9%86-%D8%A7%D8%A8%D9%86%D8%A7%D8%A1%D9%87%D9%85-8427749715775717858/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_27.html",
+      "destination": "/%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D8%AF-%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A-%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_28.html",
+      "destination": "/%D9%84%D8%A8%D8%A7%D8%B3-%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_30.html",
+      "destination": "/%D8%A7%D9%84%D9%80%D9%80%D8%B0%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_6.html",
+      "destination": "/%D9%88%D8%B9%D8%AF-%D8%A8%D9%84%D9%81%D9%88%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_7.html",
+      "destination": "/%D9%84%D8%A7-%D9%8A%D9%84%D8%AF%D8%BA-%D9%85%D9%86-%D8%AC%D8%AD%D8%B1-%D9%84%D8%AF%D8%BA-%D9%85%D9%86%D9%87-%D9%82%D8%A7%D8%B6%D9%8A-%D8%AF%D9%85%D8%B4%D9%82-%D8%A7%D8%A8%D9%86-%D9%85%D9%81%D9%84%D8%AD/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_8.html",
+      "destination": "/%D8%A7%D9%84%D9%86%D8%B9%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%B9%D9%85%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post_9.html",
+      "destination": "/%D8%A7%D9%84%D9%88%D9%84%D9%8A%D8%AF-%D8%A8%D9%86-%D8%A7%D9%84%D9%85%D8%BA%D9%8A%D8%B1%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/05/blog-post.html",
+      "destination": "/%D8%A5%D9%86-%D8%A7%D9%84%D8%B0%D9%8A-%D9%8A%D9%85%D8%AF-%D8%B1%D8%AC%D9%84%D9%87-%D9%84%D8%A7-%D9%8A%D9%85%D8%AF-%D9%8A%D8%AF%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/1907.html",
+      "destination": "/%D9%88%D8%AB%D9%8A%D9%82%D8%A9-%D9%83%D8%A7%D9%85%D8%A8%D9%84-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A9-%D8%B9%D8%A7%D9%85-1907/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_15.html",
+      "destination": "/%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%B5%D8%AF%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_16.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B9%D8%A9-4844969285695113524/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_2.html",
+      "destination": "/%D8%B6%D8%B1%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D8%B0%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_22.html",
+      "destination": "/%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A8%D8%B1%D9%84%D9%8A%D9%86-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D8%B1-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_23.html",
+      "destination": "/%D9%84%D8%A7-%D9%8A%D9%84%D9%82%D9%8A-%D9%84%D9%87%D8%A7-%D8%A8%D8%A7%D9%84%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_26.html",
+      "destination": "/%D8%A7%D9%84%D8%A8%D8%AE%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_30.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D9%82%D9%84%D8%A7%D9%86%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_5.html",
+      "destination": "/%D8%A7%D9%84%D8%AD%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_6.html",
+      "destination": "/%D9%83%D8%B1%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_7.html",
+      "destination": "/%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post_8.html",
+      "destination": "/%D9%84%D8%A7-%D8%AA%D9%88%D9%83%D9%8A-%D9%81%D9%8A%D9%88%D9%83%D9%89-%D8%B9%D9%84%D9%8A%D9%83/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/06/blog-post.html",
+      "destination": "/%D8%A5%D9%8A%D8%A7%D9%83%D9%85-%D9%88%D9%84%D8%AC%D8%A7%D9%85-%D8%A7%D9%84%D8%B0%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2019/07/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%AC%D8%A7%D8%AF-%D8%A7%D9%84%D8%AD%D9%82-%D8%B9%D9%84%D9%8A-%D8%AC%D8%A7%D8%AF-%D8%A7%D9%84%D8%AD%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/04/blog-post_29.html",
+      "destination": "/%D9%85%D8%A7-%D9%87%D9%88-%D8%A7%D9%84%D9%83%D8%B3%D8%A8-%D9%88-%D9%85%D8%A7-%D9%87%D9%88-%D8%A7%D9%84%D8%B1%D8%B2%D9%82-%D9%88-%D9%85%D8%A7-%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86%D9%87%D9%85%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/04/blog-post.html",
+      "destination": "/%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%B1%D8%B2%D9%82-%D9%88%D9%83%D9%8A%D9%81-%D9%86%D8%B8%D8%B1-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85-%D8%A5%D9%84%D9%8A%D9%87%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_10.html",
+      "destination": "/%D8%B5%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D9%82%D9%84%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_11.html",
+      "destination": "/%D9%8A%D8%A7-%D8%A3%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D8%B0%D9%8A%D9%86-%D8%A2%D9%85%D9%86%D9%88%D8%A7-%D9%84%D9%85-%D8%AA%D9%82%D9%88%D9%84%D9%88%D9%86-%D9%85%D8%A7-%D9%84%D8%A7-%D8%AA%D9%81%D8%B9%D9%84%D9%88%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_12.html",
+      "destination": "/%D8%A7%D9%84%D9%88%D8%B9%D8%AF-%D9%88%D8%A7%D9%84%D8%A7%D8%B1%D8%A7%D8%AF%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_13.html",
+      "destination": "/%D8%A7%D9%84%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D8%AD%D9%82/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_14.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D9%86%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B5%D8%A8%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_16.html",
+      "destination": "/%D8%B8%D9%84-%D8%A7%D9%84%D9%82%D9%88%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_17.html",
+      "destination": "/%D8%AD%D8%AA%D9%89-%D9%84%D9%88-%D8%B3%D9%84%D8%AD/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_18.html",
+      "destination": "/%D8%A5%D8%B0%D8%A7-%D8%AC%D8%A7%D8%A1%D9%83-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D9%82%D9%88%D9%86-8482193844621368848/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_19.html",
+      "destination": "/%D8%A7%D9%8A%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D9%88%D9%84-%D9%88%D8%A7%D9%8A%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%81%D8%B9%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_22.html",
+      "destination": "/%D9%84%D8%A7-%D8%BA%D9%81%D8%B1-%D8%A7%D9%84%D9%84%D9%87-%D9%84%D9%83/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_23.html",
+      "destination": "/%D9%85%D9%82%D9%88%D9%84%D8%A9-%D8%A3%D9%85-%D9%82%D8%A7%D8%B9%D8%AF%D8%A9-%D9%81%D9%82%D9%87%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_24.html",
+      "destination": "/%D8%A7%D9%86%D9%85%D8%A7-%D8%B4%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D9%8A-%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_25.html",
+      "destination": "/%D8%A7%D9%8A%D9%86-%D9%8A%D9%83%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D9%8A-%D9%84%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86-%D9%88%D9%84%D8%AF%D9%88%D9%84%D8%AA%D9%87%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_27.html",
+      "destination": "/%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%85-%D9%88%D9%82%D8%B5%D8%A9-%D8%A3%D9%88%D9%8A%D8%B3-%D8%A8%D9%86-%D8%B9%D8%A7%D9%85%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_28.html",
+      "destination": "/%D8%B5%D9%81%D8%A9-%D8%A7%D9%84%D8%B5%D9%84%D9%8A%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D8%B5%D8%A8%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_29.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%B7%D8%B1%D9%81-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_3.html",
+      "destination": "/%D8%AE%D8%B0%D9%88%D8%A7-%D8%A7%D9%84%D8%B9%D8%B7%D8%A7%D8%A1-%D9%85%D8%A7-%D8%AF%D8%A7%D9%85-%D8%B9%D8%B7%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_30.html",
+      "destination": "/%D8%B3%D9%88%D8%A1-%D8%A7%D9%84%D8%B8%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_4.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D9%88%D9%83%D9%84-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_5.html",
+      "destination": "/%D8%A7%D8%AD%D8%AA%D8%B1%D9%85-%D8%AA%D8%AD%D8%AA%D8%B1%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_7.html",
+      "destination": "/%D8%A7%D9%84%D9%86%D8%AE%D9%88%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post_9.html",
+      "destination": "/%D8%A7%D9%84%D8%B1%D8%A8%D9%8A%D8%B9-%D8%A8%D9%86-%D8%B2%D9%8A%D8%A7%D8%AF-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%D9%8A-%D8%B1%D8%B6%D9%8A-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%86%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/blog-post.html",
+      "destination": "/%D9%87%D9%84-%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%84-%D9%8A%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D8%BA%D9%8A%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post_14.html",
+      "destination": "/%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%BA%D8%AF%D8%B1-%D9%85%D9%86-%D8%B4%D8%B1-%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D9%81%D8%B3%D8%A7%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post_16.html",
+      "destination": "/%D8%A7%D9%84%D8%AD%D9%82-%D9%82%D9%88%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post_17.html",
+      "destination": "/%D8%B3%D9%85%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85-%D9%85%D8%B9-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post_3.html",
+      "destination": "/%D8%A7%D9%84%D8%BA%D8%B2%D9%88-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A-%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D9%88%D8%A3%D9%87%D8%AF%D8%A7%D9%81/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post_6.html",
+      "destination": "/%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post_8.html",
+      "destination": "/%D9%88%D8%A7%D9%84%D8%B0%D9%8A%D9%86-%D8%AC%D8%A7%D9%87%D8%AF%D9%88%D8%A7-%D9%81%D9%8A%D9%86%D8%A7-%D9%84%D9%86%D9%87%D8%AF%D9%8A%D9%86%D9%87%D9%85-%D8%B3%D8%A8%D9%84%D9%86%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post_9.html",
+      "destination": "/%D8%B9%D9%84%D9%85%D8%A7%D8%A1-%D8%A7%D9%84%D8%B3%D9%88%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2020/06/blog-post.html",
+      "destination": "/%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%B8%D9%86-%D8%A8%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2021/04/blog-post_26.html",
+      "destination": "/%D9%8A%D8%B9%D8%B1%D9%81%D9%88%D9%86%D9%87-%D9%83%D9%85%D8%A7-%D9%8A%D8%B9%D8%B1%D9%81%D9%88%D9%86-%D8%A7%D8%A8%D9%86%D8%A7%D8%A1%D9%87%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2021/04/blog-post_29.html",
+      "destination": "/%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B3-%D9%88-%D8%A7%D9%84%D8%B1%D8%A3%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2021/04/blog-post.html",
+      "destination": "/%D8%A7%D8%B4%D9%87%D8%AF-%D8%A7%D9%86%D9%8A-%D8%B1%D8%B3%D9%88%D9%84-%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_11.html",
+      "destination": "/%D8%AB%D9%85-%D9%84%D8%AA%D8%B3%D8%A7%D9%84%D9%86-%D8%B9%D9%86-%D8%A7%D9%84%D9%86%D8%B9%D9%8A%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_12.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%AA%D8%B6%D8%AD%D9%8A%D8%A9-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86-6486981318257526346/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_13.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D9%86-%D8%AA%D8%A8%D8%A7%D8%AF-%D8%A3%D8%A8%D8%AF%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_15.html",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B6%D9%8A%D9%84-%D8%A8%D9%86-%D8%B9%D9%8A%D8%A7%D8%B6-%D9%88-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D9%87%D8%A7%D8%B1%D9%88%D9%86-%D8%A7%D9%84%D8%AE%D8%B1%D8%B3%D8%A7%D9%86%D9%8A/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_17.html",
+      "destination": "/%D8%B9%D8%B2%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_18.html",
+      "destination": "/%D8%B0%D9%85-%D8%A2%D8%AE%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_19.html",
+      "destination": "/%D9%81%D8%B6%D8%A7%D8%A6%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%83%D9%81%D9%8A%D8%B1-%D9%88-%D9%81%D9%82%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D8%AA%D9%86%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_20.html",
+      "destination": "/%D8%AD%D8%B3%D9%86-%D8%B8%D9%86%D9%86%D8%A7-%D8%A8%D8%A7%D9%84%D9%84%D9%87/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_21.html",
+      "destination": "/%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D8%AF%D9%88%D8%B3-%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D9%89/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_22.html",
+      "destination": "/%D9%88%D8%B1%D8%AB%D8%A9-%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_23.html",
+      "destination": "/%D8%A7%D9%87%D9%84-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_25.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_26.html",
+      "destination": "/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_27.html",
+      "destination": "/%D9%8A%D9%88%D9%85-%D9%84%D8%A7-%D8%A8%D8%AF-%D9%85%D9%86%D9%87-%D9%88%D9%84%D8%A7-%D9%8A%D8%B8%D9%84%D9%85-%D8%B1%D8%A8%D9%83-%D8%A3%D8%AD%D8%AF%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_28.html",
+      "destination": "/%D9%87%D9%84-%D9%83%D8%B3%D8%B1-%D8%A7%D9%84%D8%AE%D9%88%D8%A7%D8%B7%D8%B1-%D8%AD%D8%B1%D8%A7%D9%85-%D8%B4%D8%B1%D8%B9%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_29.html",
+      "destination": "/%D8%A7%D9%84%D9%82%D9%8A%D9%85-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_5.html",
+      "destination": "/%D9%86%D8%B9%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D8%A8%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_6.html",
+      "destination": "/%D8%B7%D9%87%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D9%84%D8%A8/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_7.html",
+      "destination": "/%D9%85%D8%AE%D8%AA%D8%B5%D8%B1-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%81%D9%8A-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%A8%D8%AF%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_8.html",
+      "destination": "/%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9-%D9%88%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D9%85%D8%A7-%D9%87%D9%8A-%D9%85%D8%B5%D8%A7%D9%84%D8%AD-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%81%D9%8A-%D9%84%D9%8A%D8%A8%D9%8A%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post_9.html",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%85%D8%BA%D9%81%D9%84-%D8%A7%D9%84%D8%B7%D9%85%D8%A7%D8%B9/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/04/blog-post.html",
+      "destination": "/%D8%A5%D9%86-%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D8%A7%D8%AA-%D9%8A%D8%B0%D9%87%D8%A8%D9%86-%D8%A7%D9%84%D8%B3%D9%8A%D8%A6%D8%A7%D8%AA/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_10.html",
+      "destination": "/%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B5%D8%AF%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_14.html",
+      "destination": "/%D8%B3%D9%86%D9%86-%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84%D8%A3%D9%85%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_16.html",
+      "destination": "/%D8%A7%D9%84%D8%A8%D8%B7%D8%B1-%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_17.html",
+      "destination": "/%D9%88%D9%82%D8%A7%D9%84%D9%88%D8%A7-%D8%A5%D9%86-%D9%86%D8%AA%D8%A8%D8%B9-%D8%A7%D9%84%D9%87%D8%AF%D9%89-%D9%85%D8%B9%D9%83-%D9%86%D8%AA%D8%AE%D8%B7%D9%81-%D9%85%D9%86-%D8%A3%D8%B1%D8%B6%D9%86%D8%A2/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_22.html",
+      "destination": "/%D8%A8%D8%AF%D8%A3-%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D8%BA%D8%B1%D9%8A%D8%A8%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_29.html",
+      "destination": "/%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%B0%D8%A7%D8%B1/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_8.html",
+      "destination": "/%D8%BA%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%82%D9%84%D8%A7%D8%A1-%D9%88%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%81%D9%87%D8%A7%D8%A1/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post_9.html",
+      "destination": "/%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2022/05/blog-post.html",
+      "destination": "/%D9%8A%D8%A7-%D8%B9%D9%85-%D8%A3%D9%86%D8%A7-%D8%A3%D8%B5%D8%B1%D8%B9-%D8%B1%D8%A7%D9%81%D8%B9%D8%A7/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/12/blog-post_12.html",
+      "destination": "/%D9%86%D8%A8%D8%B0%D8%A9-%D8%B9%D9%86-%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D9%84%D9%8A%D8%A9/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/12/blog-post_15.html",
+      "destination": "/%D8%A7%D9%84%D8%A3%D9%88%D8%B6%D8%A7%D8%B9-%D8%A7%D9%84%D8%A5%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/12/blog-post_74.html",
+      "destination": "/%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/12/blog-post.html",
+      "destination": "/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85/",
+      "permanent": true
+    }
+  ]
+}

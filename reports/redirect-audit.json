@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-04-17T11:25:42.510Z",
+  "totalRedirects": 343,
+  "issues": {
+    "sourceDuplicates": [],
+    "manifestCollisions": [],
+    "chainDepthGt1": [],
+    "loops": []
+  },
+  "platformFiles": {
+    "netlify": "public/_redirects",
+    "vercel": "vercel.json",
+    "nginx": "deploy/nginx-redirects.conf",
+    "apache": "deploy/apache-redirects.conf"
+  }
+}

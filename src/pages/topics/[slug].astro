@@ -1,0 +1,95 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+import { getLabelHref, getPostUrl, getSortedPosts, slugifyLabel } from '../../lib/blog';
+
+export async function getStaticPaths() {
+	const posts = await getSortedPosts();
+	const labels = Array.from(new Set(posts.flatMap((post) => post.data.labels)));
+
+	return labels.map((label) => ({
+		params: { slug: slugifyLabel(label) },
+		props: {
+			label,
+			posts: posts.filter((post) => post.data.labels.includes(label)),
+		},
+	}));
+}
+
+const { label, posts } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+	<head>
+		<BaseHead title={`${label} | ${SITE_TITLE}`} description={`تدوينات مصنفة تحت ${label}`} />
+		<style>
+			.topic-header,
+			.post-list li {
+				background: rgba(255, 252, 245, 0.94);
+				border: 1px solid rgba(18, 53, 36, 0.08);
+				border-radius: 24px;
+				box-shadow: 0 18px 40px rgba(18, 53, 36, 0.08);
+			}
+			.topic-header {
+				padding: 1.5rem;
+				margin-bottom: 1rem;
+			}
+			.post-list {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			.post-list li {
+				padding: 1.2rem;
+			}
+			.post-list li + li {
+				margin-top: 1rem;
+			}
+			.labels {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5rem;
+				margin-top: 0.85rem;
+			}
+			.labels a {
+				padding: 0.35rem 0.8rem;
+				border-radius: 999px;
+				background: rgba(201, 119, 43, 0.12);
+				color: #8a4d16;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="topic-header">
+				<p class="eyebrow">تصنيف</p>
+				<h1>{label}</h1>
+				<p>{posts.length} تدوينة ضمن هذا الموضوع.</p>
+			</section>
+
+			<ul class="post-list">
+				{
+					posts.map((post) => (
+						<li>
+							<p><FormattedDate date={post.data.pubDate} /></p>
+							<h2><a href={getPostUrl(post)}>{post.data.title}</a></h2>
+							<p>{post.data.description}</p>
+							<div class="labels">
+								{post.data.labels.map((item) => (
+									<a href={getLabelHref(item)}>{item}</a>
+								))}
+							</div>
+						</li>
+					))
+				}
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>
