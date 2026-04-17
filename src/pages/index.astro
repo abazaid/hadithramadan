@@ -12,13 +12,21 @@ const fatawaPosts = posts.slice(10, 16);
 const ragaeqPosts = posts.slice(16, 22);
 const seriesPosts = posts.slice(22, 28);
 
-const sectionLinks = Array.from(
+const allSectionLinks = Array.from(
 	new Map(
 		posts
 			.flatMap((post) => post.data.labels)
 			.map((label) => [label, { label, href: getLabelHref(label) }]),
 	).values(),
-).slice(0, 8);
+);
+const prioritySections = ['حديث رمضان 1'];
+const prioritized = prioritySections
+	.map((label) => allSectionLinks.find((item) => item.label === label))
+	.filter(Boolean);
+const sectionLinks = [...prioritized, ...allSectionLinks.filter((item) => !prioritySections.includes(item.label))].slice(
+	0,
+	8,
+);
 ---
 
 <!doctype html>

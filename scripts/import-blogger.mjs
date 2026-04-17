@@ -170,6 +170,16 @@ function clearGeneratedContent(dir) {
 			continue;
 		}
 		if (entry.isFile() && /\.(md|mdx)$/i.test(entry.name)) {
+			// Keep book-imported posts so periodic Blogger sync doesn't wipe them.
+			try {
+				const head = fs.readFileSync(fullPath, 'utf8').slice(0, 2400);
+				const sourceId = head.match(/^sourceId:\s*"(.*)"$/m)?.[1] ?? '';
+				if (sourceId.startsWith('book-ramadan-')) {
+					continue;
+				}
+			} catch {
+				// Continue with deletion when file cannot be read/parsed.
+			}
 			fs.rmSync(fullPath, { force: true });
 		}
 	}

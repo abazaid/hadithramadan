@@ -1,4 +1,6 @@
 # Auto-generated. Do not edit manually.
+# www -> non-www
+https://www.hadith-ramadan.com/*  https://hadith-ramadan.com/:splat  301!
 # Old URL -> New URL (301)
 /2009/11/1.html  /%D9%81%D9%8A%D8%AF%D9%8A%D9%88-1/  301
 /2009/11/blog-post_2026.html  /%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B9%D8%A9/  301

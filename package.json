@@ -7,6 +7,8 @@
   },
   "scripts": {
     "import:blogger": "node ./scripts/import-blogger.mjs",
+    "import:book1:dry": "python ./scripts/import-book-pdf.py --input \"https://drive.google.com/file/d/1jslDOC7RHBoK2Q_J9u6QSh_CpxS6w5Yg/view?usp=sharing\"",
+    "import:book1": "python ./scripts/import-book-pdf.py --input \"https://drive.google.com/file/d/1jslDOC7RHBoK2Q_J9u6QSh_CpxS6w5Yg/view?usp=sharing\" --write",
     "redirects:build": "node ./scripts/build-redirect-assets.mjs",
     "predev": "npm run import:blogger && npm run redirects:build",
     "prebuild": "npm run import:blogger && npm run redirects:build",

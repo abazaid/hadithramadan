@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.hadith-ramadan.com"
+        }
+      ],
+      "destination": "https://hadith-ramadan.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/2009/11/1.html",
       "destination": "/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-1/",
       "permanent": true

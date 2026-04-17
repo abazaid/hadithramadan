@@ -85,6 +85,8 @@ function encodePath(value) {
 function buildNetlifyRedirects(entries) {
   const lines = [];
   lines.push('# Auto-generated. Do not edit manually.');
+  lines.push('# www -> non-www');
+  lines.push('https://www.hadith-ramadan.com/*  https://hadith-ramadan.com/:splat  301!');
   lines.push('# Old URL -> New URL (301)');
   for (const item of entries) {
     lines.push(`${encodePath(item.source)}  ${encodePath(item.destination)}  301`);
@@ -93,18 +95,28 @@ function buildNetlifyRedirects(entries) {
 }
 
 function buildVercelRedirects(entries) {
+  const wwwRedirect = {
+    source: '/:path*',
+    has: [{ type: 'host', value: 'www.hadith-ramadan.com' }],
+    destination: 'https://hadith-ramadan.com/:path*',
+    permanent: true,
+  };
   return {
-    redirects: entries.map((item) => ({
-      source: encodePath(item.source),
-      destination: encodePath(item.destination),
-      permanent: true,
-    })),
+    redirects: [
+      wwwRedirect,
+      ...entries.map((item) => ({
+        source: encodePath(item.source),
+        destination: encodePath(item.destination),
+        permanent: true,
+      })),
+    ],
   };
 }
 
 function buildNginxRedirects(entries) {
   const lines = [];
   lines.push('# Auto-generated. Include inside server {} block.');
+  lines.push('if ($host = "www.hadith-ramadan.com") { return 301 https://hadith-ramadan.com$request_uri; }');
   for (const item of entries) {
     const sourceRegex = '^' + escapeRegex(item.source) + '$';
     lines.push(`location ~ ${sourceRegex} { return 301 ${encodePath(item.destination)}; }`);
@@ -115,6 +127,9 @@ function buildNginxRedirects(entries) {
 function buildApacheRedirects(entries) {
   const lines = [];
   lines.push('# Auto-generated for Apache');
+  lines.push('RewriteEngine On');
+  lines.push('RewriteCond %{HTTP_HOST} ^www\\.hadith-ramadan\\.com [NC]');
+  lines.push('RewriteRule ^(.*)$ https://hadith-ramadan.com/$1 [R=301,L]');
   for (const item of entries) {
     lines.push(`Redirect 301 ${encodePath(item.source)} ${encodePath(item.destination)}`);
   }

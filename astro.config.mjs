@@ -7,7 +7,7 @@ import redirects from './src/data/redirects.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.hadith-ramadan.com',
+	site: 'https://hadith-ramadan.com',
 	integrations: [mdx(), sitemap()],
 	redirects,
 	fonts: [
