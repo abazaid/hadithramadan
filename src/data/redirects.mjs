@@ -341,7 +341,8 @@ const redirects = {
   "/2016/06/blog-post_8.html": "/قصة-صاحب-النقب-يوم-تبلى-السرائر/",
   "/2011/02/blog-post_4767.html": "/الإقتصاد-الكفائي-للدولة/",
   "/2009/12/blog-post_2484.html": "/مفهوم-الرقم-و-العدد/",
-  "/2013/12/blog-post_9238.html": "/الــوهـــن/"
+  "/2013/12/blog-post_9238.html": "/الــوهـــن/",
+  "/p/blog-page.html": "/books/"
 };
 
 export default redirects;

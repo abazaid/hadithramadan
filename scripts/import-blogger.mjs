@@ -9,6 +9,9 @@ const REDIRECTS_FILE = path.join(DATA_DIR, 'redirects.mjs');
 const MANIFEST_FILE = path.join(DATA_DIR, 'blogger-manifest.mjs');
 const SITE_URL = 'https://www.hadith-ramadan.com';
 const RESERVED_SLUGS = new Set(['', 'blog', 'topics', 'about', 'rss.xml', '404', 'api']);
+const MANUAL_REDIRECTS = {
+	'/p/blog-page.html': '/books/',
+};
 
 const feedPath = findFeedPath(BLOGGER_BLOGS_DIR);
 
@@ -76,7 +79,7 @@ for (const post of posts) {
 
 fs.writeFileSync(
 	REDIRECTS_FILE,
-	`const redirects = ${JSON.stringify(redirectMap, null, 2)};\n\nexport default redirects;\n`,
+	`const redirects = ${JSON.stringify({ ...redirectMap, ...MANUAL_REDIRECTS }, null, 2)};\n\nexport default redirects;\n`,
 	'utf8',
 );
 
