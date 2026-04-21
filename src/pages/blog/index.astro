@@ -15,12 +15,26 @@ const breadcrumbSchema = {
 		{ '@type': 'ListItem', position: 2, name: 'المدونة', item: `${SITE_URL}/blog` },
 	],
 };
+const itemListSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'ItemList',
+	name: 'الأرشيف الكامل',
+	url: `${SITE_URL}/blog`,
+	itemListOrder: 'https://schema.org/ItemListOrderDescending',
+	numberOfItems: posts.length,
+	itemListElement: posts.slice(0, 50).map((post, idx) => ({
+		'@type': 'ListItem',
+		position: idx + 1,
+		url: `${SITE_URL}${getPostUrl(post)}`,
+		name: post.data.title,
+	})),
+};
 ---
 
 <!doctype html>
 <html lang="ar" dir="rtl">
 	<head>
-		<BaseHead title={`الأرشيف | ${SITE_TITLE}`} description={SITE_DESCRIPTION} schema={breadcrumbSchema} />
+		<BaseHead title={`الأرشيف | ${SITE_TITLE}`} description={SITE_DESCRIPTION} schema={[breadcrumbSchema, itemListSchema]} />
 		<style>
 			.archive-hero {
 				padding: 1.8rem;

@@ -1,0 +1,59 @@
+﻿---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE, SITE_URL } from '../../consts';
+import { getLabelHref, getSortedPosts } from '../../lib/blog';
+
+const posts = await getSortedPosts();
+const labels = Array.from(new Set(posts.flatMap((post) => post.data.labels))).sort((a, b) => a.localeCompare(b, 'ar'));
+
+const pageTitle = `الموضوعات | ${SITE_TITLE}`;
+const pageDescription = 'فهرس جميع موضوعات المدونة لتصفح المقالات حسب التصنيف.';
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'الرئيسية', item: SITE_URL },
+		{ '@type': 'ListItem', position: 2, name: 'الموضوعات', item: `${SITE_URL}/topics/` },
+	],
+};
+---
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+	<head>
+		<BaseHead title={pageTitle} description={pageDescription} schema={breadcrumbSchema} />
+		<style>
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+				gap: 0.8rem;
+			}
+			.tag {
+				display: block;
+				padding: 0.75rem 0.9rem;
+				border: 1px solid var(--line);
+				border-radius: 12px;
+				background: #fff;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="surface section-shell">
+				<p class="eyebrow">التصنيفات</p>
+				<h1>كل الموضوعات</h1>
+				<p>يمكنك تصفح المحتوى حسب التصنيف من القائمة التالية.</p>
+			</section>
+			<section class="grid">
+				{labels.map((label) => (
+					<a class="tag" href={getLabelHref(label)}>{label}</a>
+				))}
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

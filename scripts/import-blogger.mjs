@@ -215,7 +215,7 @@ function sanitizeHtml(html, title) {
 		.replace(/<p\b[^>]*>/gi, '<p>')
 		.replace(/<h([1-6])\b[^>]*>/gi, '<h$1>')
 		.replace(/<(table|tbody|thead|tfoot|tr|td|th|ul|ol|li|blockquote|a|img)\b[^>]*>/gi, (match, tag) =>
-			preserveUsefulAttributes(match, tag),
+			preserveUsefulAttributes(match, tag, title),
 		)
 		.replace(/<(?!\/?(p|br|ul|ol|li|blockquote|strong|b|em|i|u|a|img|table|thead|tbody|tfoot|tr|th|td|h2|h3|h4)\b)[^>]+>/gi, ' ');
 
@@ -352,7 +352,7 @@ function stripInlineAttributesFromTextTags(html) {
 		.replace(/<(table|thead|tbody|tfoot|tr|th|td)\b[^>]*>/gi, '<$1>');
 }
 
-function preserveUsefulAttributes(match, tag) {
+function preserveUsefulAttributes(match, tag, title = '') {
 	const attributes = [];
 
 	if (tag === 'a') {
@@ -369,7 +369,11 @@ function preserveUsefulAttributes(match, tag) {
 			return '';
 		}
 
-		attributes.push(`src="${escapeAttribute(src)}"`, `alt="${escapeAttribute(alt)}"`, 'loading="lazy"');
+		const normalizedAlt = cleanHeadingText(alt);
+		const fallbackAlt = title ? `صورة توضيحية لمقال: ${cleanHeadingText(title)}` : 'صورة توضيحية للمقال';
+		const finalAlt = normalizedAlt || fallbackAlt;
+
+		attributes.push(`src="${escapeAttribute(src)}"`, `alt="${escapeAttribute(finalAlt)}"`, 'loading="lazy"');
 	}
 
 	return `<${tag}${attributes.length ? ` ${attributes.join(' ')}` : ''}>`;

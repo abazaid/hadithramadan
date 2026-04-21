@@ -2,7 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { CONTACT_EMAIL, FACEBOOK_URL, SITE_TITLE, SITE_URL, YOUTUBE_URL } from '../consts';
+import { CONTACT_EMAIL, FACEBOOK_URL, SITE_AUTHOR, SITE_TITLE, SITE_URL, YOUTUBE_URL } from '../consts';
 
 const pageTitle = `تواصل | ${SITE_TITLE}`;
 const pageDescription = 'طرق التواصل الرسمية مع مدونة الشيخ جواد عبد المحسن، عبر البريد الإلكتروني والروابط الاجتماعية.';
@@ -14,12 +14,26 @@ const breadcrumbSchema = {
 		{ '@type': 'ListItem', position: 2, name: 'تواصل', item: `${SITE_URL}/contact` },
 	],
 };
+const contactPageSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'ContactPage',
+	name: 'تواصل',
+	url: `${SITE_URL}/contact`,
+	inLanguage: 'ar',
+	mainEntity: {
+		'@type': 'Person',
+		name: SITE_AUTHOR,
+		url: `${SITE_URL}/about`,
+		email: CONTACT_EMAIL,
+		sameAs: [FACEBOOK_URL, YOUTUBE_URL],
+	},
+};
 ---
 
 <!doctype html>
 <html lang="ar" dir="rtl">
 	<head>
-		<BaseHead title={pageTitle} description={pageDescription} schema={breadcrumbSchema} />
+		<BaseHead title={pageTitle} description={pageDescription} schema={[breadcrumbSchema, contactPageSchema]} />
 		<style>
 			.wrap {
 				display: grid;

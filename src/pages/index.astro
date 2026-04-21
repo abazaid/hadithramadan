@@ -36,6 +36,15 @@ const personSchema = {
 	description: AUTHOR_BIO,
 	sameAs: [FACEBOOK_URL, YOUTUBE_URL],
 };
+const organizationSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Organization',
+	name: SITE_TITLE,
+	url: SITE_URL,
+	brand: SITE_TITLE,
+	founder: { '@type': 'Person', name: SITE_AUTHOR, url: `${SITE_URL}/about` },
+	sameAs: [FACEBOOK_URL, YOUTUBE_URL],
+};
 
 const websiteSchema = {
 	'@context': 'https://schema.org',
@@ -56,7 +65,7 @@ const websiteSchema = {
 <!doctype html>
 <html lang="ar" dir="rtl">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} schema={[websiteSchema, personSchema]} />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} schema={[websiteSchema, personSchema, organizationSchema]} />
 		<style>
 			.home-grid {
 				display: grid;
