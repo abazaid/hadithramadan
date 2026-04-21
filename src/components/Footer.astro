@@ -1,5 +1,5 @@
 ﻿---
-import { FACEBOOK_URL, YOUTUBE_URL } from '../consts';
+import { CONTACT_EMAIL, FACEBOOK_URL, YOUTUBE_URL } from '../consts';
 ---
 
 <footer class="site-footer">
@@ -10,6 +10,8 @@ import { FACEBOOK_URL, YOUTUBE_URL } from '../consts';
 				<ul>
 					<li><a href="/blog">المدونة</a></li>
 					<li><a href="/books">اجزاء كتاب حديث رمضان</a></li>
+					<li><a href="/about">عن الشيخ</a></li>
+					<li><a href="/contact">تواصل</a></li>
 				</ul>
 			</div>
 			<div>
@@ -17,7 +19,7 @@ import { FACEBOOK_URL, YOUTUBE_URL } from '../consts';
 				<ul>
 					<li><a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer">Facebook</a></li>
 					<li><a href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer">YouTube</a></li>
-					<li><a href="/">تواصل</a></li>
+					<li><a href={`mailto:${CONTACT_EMAIL}`}>Email</a></li>
 				</ul>
 			</div>
 			<div>

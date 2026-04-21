@@ -1,0 +1,21 @@
+﻿# hadith-ramadan.com - llms.txt
+
+## Site
+Title: مدونة الشيخ جواد عبد المحسن - حديث رمضان
+Description: أرشيف علمي ومنهجي للشيخ جواد عبد المحسن الهشلمون، يتناول الموضوعات الإسلامية والسياسية والتاريخية.
+Language: ar
+Author: الشيخ جواد عبد المحسن الهشلمون
+
+## Key Sections
+- Blog archive: https://hadith-ramadan.com/blog
+- Book series (26 volumes): https://hadith-ramadan.com/books
+- Topics: https://hadith-ramadan.com/topics/
+- About the author: https://hadith-ramadan.com/about
+- Contact: https://hadith-ramadan.com/contact
+
+## Crawl Priority
+- Start with /sitemap.xml then /sitemap-index.xml
+- Prefer canonical article URLs over legacy Blogger URLs
+
+## Use Policy
+Content may be cited with clear attribution to Sheikh Jawad Abdul-Mohsen Al-Hashlamoun and hadith-ramadan.com.

@@ -2,7 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { AUTHOR_BIO, FACEBOOK_URL, SITE_AUTHOR, SITE_DESCRIPTION, SITE_TITLE, SITE_URL, YOUTUBE_URL } from '../consts';
 import { getLabelHref, getSortedPosts } from '../lib/blog';
 
 const posts = await getSortedPosts();
@@ -27,12 +27,36 @@ const sectionLinks = [...prioritized, ...allSectionLinks.filter((item) => !prior
 	0,
 	8,
 );
+
+const personSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Person',
+	name: SITE_AUTHOR,
+	url: SITE_URL,
+	description: AUTHOR_BIO,
+	sameAs: [FACEBOOK_URL, YOUTUBE_URL],
+};
+
+const websiteSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: SITE_TITLE,
+	url: SITE_URL,
+	inLanguage: 'ar',
+	description: SITE_DESCRIPTION,
+	author: { '@type': 'Person', name: SITE_AUTHOR, url: SITE_URL },
+	potentialAction: {
+		'@type': 'SearchAction',
+		target: `${SITE_URL}/blog?query={search_term_string}`,
+		'query-input': 'required name=search_term_string',
+	},
+};
 ---
 
 <!doctype html>
 <html lang="ar" dir="rtl">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} schema={[websiteSchema, personSchema]} />
 		<style>
 			.home-grid {
 				display: grid;
@@ -196,6 +220,7 @@ const sectionLinks = [...prioritized, ...allSectionLinks.filter((item) => !prior
 	<body>
 		<Header />
 		<main>
+			<h1 class="sr-only">{SITE_TITLE}</h1>
 			<div class="home-grid">
 				<div class="main-column">
 					<section class="surface section-shell search-box">

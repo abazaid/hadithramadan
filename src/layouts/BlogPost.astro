@@ -5,6 +5,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import { AUTHOR_BIO, FACEBOOK_URL, SITE_AUTHOR, SITE_TITLE, SITE_URL, YOUTUBE_URL } from '../consts';
 import { slugifyLabel } from '../lib/blog';
 
 type Props = CollectionEntry<'blog'>['data'] & {
@@ -21,11 +22,88 @@ const seoKeywords = [
 	'مقالات سياسية',
 	'مقالات اقتصادية',
 ];
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{
+			'@type': 'ListItem',
+			position: 1,
+			name: 'الرئيسية',
+			item: SITE_URL,
+		},
+		{
+			'@type': 'ListItem',
+			position: 2,
+			name: 'المدونة',
+			item: `${SITE_URL}/blog`,
+		},
+		{
+			'@type': 'ListItem',
+			position: 3,
+			name: title,
+			item: canonicalUrl,
+		},
+	],
+};
+const personSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Person',
+	name: SITE_AUTHOR,
+	url: SITE_URL,
+	description: AUTHOR_BIO,
+	sameAs: [FACEBOOK_URL, YOUTUBE_URL],
+};
+const articleSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BlogPosting',
+	mainEntityOfPage: canonicalUrl,
+	headline: title,
+	description,
+	datePublished: pubDate.toISOString(),
+	dateModified: (updatedDate ?? pubDate).toISOString(),
+	inLanguage: 'ar',
+	author: {
+		'@type': 'Person',
+		name: SITE_AUTHOR,
+		url: `${SITE_URL}/about`,
+	},
+	publisher: {
+		'@type': 'Organization',
+		name: SITE_TITLE,
+		url: SITE_URL,
+	},
+	keywords: labels,
+};
+const isFatwaPost = labels.some((label) => label.includes('فتاو'));
+const faqSchema = isFatwaPost
+	? {
+			'@context': 'https://schema.org',
+			'@type': 'FAQPage',
+			mainEntity: [
+				{
+					'@type': 'Question',
+					name: title,
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: description,
+					},
+				},
+			],
+		}
+	: null;
 ---
 
 <html lang="ar" dir="rtl">
 	<head>
-		<BaseHead title={title} description={description} keywords={seoKeywords} />
+		<BaseHead
+			title={title}
+			description={description}
+			keywords={seoKeywords}
+			ogType="article"
+			schema={[articleSchema, personSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
+		/>
 		<style>
 			main {
 				width: min(1120px, calc(100% - 2rem));
@@ -158,13 +236,25 @@ const seoKeywords = [
 				margin: 0;
 				padding-inline-start: 1.2rem;
 			}
+
+			.author-block {
+				margin-top: 1.4rem;
+				padding: 1rem;
+				border: 1px solid rgba(35, 53, 45, 0.12);
+				border-radius: 14px;
+				background: rgba(42, 64, 54, 0.04);
+			}
+
+			.author-block p {
+				margin: 0.35rem 0 0;
+			}
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
 			<article>
-				{heroImage && <div class="hero-image"><Image width={1280} height={640} src={heroImage} alt="" /></div>}
+				{heroImage && <div class="hero-image"><Image width={1280} height={640} src={heroImage} alt={`صورة توضيحية لمقال: ${title}`} /></div>}
 				<div class="post-shell surface">
 					<div class="title-block">
 						<p class="eyebrow">تدوينة</p>
@@ -182,6 +272,11 @@ const seoKeywords = [
 								</div>
 							)
 						}
+						<div class="author-block" aria-label="معلومات الكاتب">
+							<strong>{SITE_AUTHOR}</strong>
+							<p>{AUTHOR_BIO}</p>
+							<a href="/about">نبذة الكاتب الكاملة</a>
+						</div>
 					</div>
 
 					<div class="prose">

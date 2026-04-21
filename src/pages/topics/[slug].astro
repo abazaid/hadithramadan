@@ -3,7 +3,7 @@ import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
-import { SITE_TITLE } from '../../consts';
+import { SITE_TITLE, SITE_URL } from '../../consts';
 import { getLabelHref, getPostUrl, getSortedPosts, slugifyLabel } from '../../lib/blog';
 
 export async function getStaticPaths() {
@@ -20,12 +20,22 @@ export async function getStaticPaths() {
 }
 
 const { label, posts } = Astro.props;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'الرئيسية', item: SITE_URL },
+		{ '@type': 'ListItem', position: 2, name: 'الموضوعات', item: `${SITE_URL}/topics/` },
+		{ '@type': 'ListItem', position: 3, name: label, item: canonicalUrl },
+	],
+};
 ---
 
 <!doctype html>
 <html lang="ar" dir="rtl">
 	<head>
-		<BaseHead title={`${label} | ${SITE_TITLE}`} description={`تدوينات مصنفة تحت ${label}`} />
+		<BaseHead title={`${label} | ${SITE_TITLE}`} description={`تدوينات مصنفة تحت ${label}`} schema={breadcrumbSchema} />
 		<style>
 			.topic-header,
 			.post-list li {

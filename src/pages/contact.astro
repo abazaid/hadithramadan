@@ -1,0 +1,72 @@
+﻿---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { CONTACT_EMAIL, FACEBOOK_URL, SITE_TITLE, SITE_URL, YOUTUBE_URL } from '../consts';
+
+const pageTitle = `تواصل | ${SITE_TITLE}`;
+const pageDescription = 'طرق التواصل الرسمية مع مدونة الشيخ جواد عبد المحسن، عبر البريد الإلكتروني والروابط الاجتماعية.';
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'الرئيسية', item: SITE_URL },
+		{ '@type': 'ListItem', position: 2, name: 'تواصل', item: `${SITE_URL}/contact` },
+	],
+};
+---
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+	<head>
+		<BaseHead title={pageTitle} description={pageDescription} schema={breadcrumbSchema} />
+		<style>
+			.wrap {
+				display: grid;
+				gap: 1rem;
+			}
+
+			.card {
+				padding: 1.4rem;
+			}
+
+			.links {
+				display: grid;
+				gap: 0.8rem;
+			}
+
+			.links a {
+				display: inline-flex;
+				padding: 0.75rem 1rem;
+				border-radius: 10px;
+				background: var(--accent-soft);
+				text-decoration: none;
+				font-weight: 700;
+				width: fit-content;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="surface card">
+				<p class="eyebrow">اتصل بنا</p>
+				<h1>التواصل مع إدارة الموقع</h1>
+				<p>
+					للاستفسارات العلمية أو الإدارية، يمكنكم التواصل عبر البريد الإلكتروني الرسمي أو من خلال الحسابات
+					الاجتماعية المعتمدة.
+				</p>
+			</section>
+
+			<section class="surface card wrap">
+				<h2>قنوات التواصل</h2>
+				<div class="links">
+					<a href={`mailto:${CONTACT_EMAIL}`}>البريد الإلكتروني: {CONTACT_EMAIL}</a>
+					<a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer">Facebook الرسمي</a>
+					<a href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer">YouTube الرسمي</a>
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
