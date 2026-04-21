@@ -6,7 +6,14 @@ import { SITE_TITLE, SITE_URL } from '../../consts';
 import { getLabelHref, getSortedPosts } from '../../lib/blog';
 
 const posts = await getSortedPosts();
-const labels = Array.from(new Set(posts.flatMap((post) => post.data.labels))).sort((a, b) => a.localeCompare(b, 'ar'));
+const ramadanLabels = Array.from({ length: 26 }, (_value, index) => `حديث رمضان ${index + 1}`);
+const contentLabels = Array.from(new Set(posts.flatMap((post) => post.data.labels)));
+const labels = [
+	...ramadanLabels,
+	...contentLabels
+		.filter((label) => !ramadanLabels.includes(label))
+		.sort((a, b) => a.localeCompare(b, 'ar')),
+];
 
 const pageTitle = `الموضوعات | ${SITE_TITLE}`;
 const pageDescription = 'فهرس جميع موضوعات المدونة لتصفح المقالات حسب التصنيف.';

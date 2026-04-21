@@ -15,7 +15,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_61.html",
     "sourceId": "182154725542238684",
     "published": "2016-06-18T00:40:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الامام و الامير و القائد و السياسة",
@@ -31,7 +33,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2017/06/blog-post_16.html",
     "sourceId": "256226847495594173",
     "published": "2017-06-16T19:46:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 15"
+    ]
   },
   {
     "title": "الخزي",
@@ -79,7 +83,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_17.html",
     "sourceId": "313916617288147898",
     "published": "2014-08-17T13:13:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "كرامة المسلم",
@@ -97,7 +103,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_23.html",
     "sourceId": "318094689561299528",
     "published": "2015-06-23T09:22:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الشرعية بين شرعية الشرع وشرعية العقل",
@@ -105,7 +113,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_2.html",
     "sourceId": "339408828153287271",
     "published": "2014-08-03T05:23:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "نظام الوقف واثره على الدولة والمجتمع",
@@ -113,7 +123,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post.html",
     "sourceId": "361130703074659370",
     "published": "2014-08-03T05:17:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "لا يُلدغ من جحر لُدغ منه قاضي دمشق ابن مفلح",
@@ -141,7 +153,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_18.html",
     "sourceId": "393009529049337232",
     "published": "2014-08-18T12:21:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "مفهوم النصر عند المسلمين",
@@ -149,7 +163,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_27.html",
     "sourceId": "419220478903210484",
     "published": "2014-08-28T06:52:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 1"
+    ]
   },
   {
     "title": "أجزاء كتاب حديث رمضان كاملة",
@@ -215,7 +231,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_7209.html",
     "sourceId": "631567984773050288",
     "published": "2011-02-13T00:29:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "الامام العادل",
@@ -223,7 +241,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_25.html",
     "sourceId": "643649801253895047",
     "published": "2016-06-26T01:12:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الأوضاع الإجتماعية قبل الإسلام",
@@ -241,7 +261,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/11/blog-post_5059.html",
     "sourceId": "677672668752978518",
     "published": "2009-11-29T21:54:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 3"
+    ]
   },
   {
     "title": "خذوا العطاء ما دام عطاء",
@@ -259,7 +281,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/11/blog-post_1468.html",
     "sourceId": "682435335038005404",
     "published": "2012-11-29T01:21:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 1"
+    ]
   },
   {
     "title": "توبة مالك بن دينار (قصة رائعة ومؤثرة)",
@@ -267,7 +291,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_12.html",
     "sourceId": "696428726786927101",
     "published": "2014-08-12T18:56:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "انَّمَا شِفَاءُ الْعِيِّ السُّؤَالُ",
@@ -295,7 +321,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_1.html",
     "sourceId": "867090985852327790",
     "published": "2015-06-24T12:15:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الأفعال وردود الأفعال",
@@ -303,7 +331,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/10/blog-post_1800.html",
     "sourceId": "874508523678153250",
     "published": "2012-10-30T14:03:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 1"
+    ]
   },
   {
     "title": "لا يلقي لها بالا",
@@ -321,7 +351,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/01/blog-post_22.html",
     "sourceId": "933546168828594592",
     "published": "2014-01-22T11:50:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "النظرة السياسية",
@@ -329,7 +361,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_6058.html",
     "sourceId": "992485980802691787",
     "published": "2011-02-13T00:48:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "اشهد اني رسول الله",
@@ -357,7 +391,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_9.html",
     "sourceId": "1040364351247161110",
     "published": "2015-07-09T10:22:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "(إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ)",
@@ -405,7 +441,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/07/blog-post_77.html",
     "sourceId": "1301764337734610011",
     "published": "2014-08-01T04:54:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "الاستعانة",
@@ -423,7 +461,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_10.html",
     "sourceId": "1344958870417880972",
     "published": "2013-12-10T08:00:00.005Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "تاريخ الخلافة",
@@ -431,7 +471,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_28.html",
     "sourceId": "1397733067734760473",
     "published": "2015-06-28T12:50:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "حق التأديب",
@@ -439,7 +481,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_2659.html",
     "sourceId": "1461403965718964104",
     "published": "2011-02-13T01:02:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "فَكُلِي وَاشْرَبِي وَقَرِّي عَيْنًا",
@@ -457,7 +501,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_56.html",
     "sourceId": "1543087789583021260",
     "published": "2016-06-07T20:31:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الرجز",
@@ -465,7 +511,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_77.html",
     "sourceId": "1624104028046836001",
     "published": "2014-08-14T04:40:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "الرجس",
@@ -473,7 +521,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_13.html",
     "sourceId": "1625412819047671512",
     "published": "2014-08-14T04:39:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "وكذلك نُوَلِّي بَعْضَ الظالمين بَعْضاً بِمَا كَانُواْ يَكْسِبُونَ",
@@ -481,7 +531,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/10/blog-post_3342.html",
     "sourceId": "1641806271113310768",
     "published": "2012-10-08T16:47:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 10"
+    ]
   },
   {
     "title": "نظرة الاسلام للرياضة",
@@ -509,7 +561,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_28.html",
     "sourceId": "1721355601847694770",
     "published": "2016-06-29T01:26:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "وثيقة كامبل السرية عام 1907",
@@ -527,7 +581,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_24.html",
     "sourceId": "1743650534362577928",
     "published": "2016-06-25T00:41:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "حديث رمضان 15",
@@ -535,7 +591,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2017/05/15.html",
     "sourceId": "1743829575634118733",
     "published": "2017-05-26T23:06:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 15"
+    ]
   },
   {
     "title": "الحارس الامين",
@@ -553,7 +611,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_29.html",
     "sourceId": "1780046592018467476",
     "published": "2016-06-19T15:07:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "البيان",
@@ -561,7 +621,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_1607.html",
     "sourceId": "1876427973479309464",
     "published": "2013-12-10T07:55:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "الرجل المريض",
@@ -569,7 +631,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/10/blog-post_206.html",
     "sourceId": "1890428226438610370",
     "published": "2012-10-08T16:53:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 10"
+    ]
   },
   {
     "title": "العقيدة العسكرية",
@@ -577,7 +641,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_90.html",
     "sourceId": "1925714965844487149",
     "published": "2014-08-11T06:12:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "وبشر الصابرين",
@@ -585,7 +651,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_26.html",
     "sourceId": "1937691195047243621",
     "published": "2014-08-08T21:40:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "القائد الميداني لوحدة الموت الإسلامية",
@@ -603,7 +671,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_13.html",
     "sourceId": "2025855390271690175",
     "published": "2015-07-13T11:36:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "حبل الله وحبل الناس",
@@ -621,7 +691,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/07/blog-post_31.html",
     "sourceId": "2049084967537844316",
     "published": "2014-08-01T04:52:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "الامة الاسلامية بين الانشاء والهداية",
@@ -649,7 +721,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post.html",
     "sourceId": "2085261038602195244",
     "published": "2013-12-10T07:31:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "حسن الظن بالله",
@@ -667,7 +741,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_2686.html",
     "sourceId": "2144164592777259921",
     "published": "2011-02-13T01:05:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "معركة حصار الكوت",
@@ -685,7 +761,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/11/blog-post.html",
     "sourceId": "2184969641032398708",
     "published": "2014-11-18T10:26:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 3"
+    ]
   },
   {
     "title": "التألي على الله",
@@ -713,7 +791,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_903.html",
     "sourceId": "2273104123119228926",
     "published": "2011-02-13T00:53:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "الذكورة والانوثة و(الرجولة)",
@@ -721,7 +801,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/01/blog-post.html",
     "sourceId": "2288636283485859882",
     "published": "2014-01-22T11:46:00.005Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "العداء الروسي للإسلام",
@@ -747,7 +829,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_115.html",
     "sourceId": "2474547996005822640",
     "published": "2013-12-10T07:33:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "مفهوم الشقاء",
@@ -755,7 +839,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_582.html",
     "sourceId": "2483253113617958862",
     "published": "2011-02-13T00:34:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "وَلْتَنْظُرْ نَفْسٌ مَا قَدَّمَتْ لِغَد",
@@ -801,7 +887,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_12.html",
     "sourceId": "2623064110712240574",
     "published": "2015-07-12T11:26:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "ذم آخر الزمان",
@@ -827,7 +915,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_23.html",
     "sourceId": "2780626161537996863",
     "published": "2014-08-24T06:55:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 3"
+    ]
   },
   {
     "title": "الزعم",
@@ -903,7 +993,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_9.html",
     "sourceId": "2886373868014096817",
     "published": "2014-08-10T03:01:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "بر الوالدين",
@@ -911,7 +1003,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_13.html",
     "sourceId": "2900023885776886332",
     "published": "2016-06-13T22:28:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الاستضعاف والاستكبار",
@@ -919,7 +1013,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/11/blog-post_28.html",
     "sourceId": "2947761276847947046",
     "published": "2012-11-29T01:18:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 1"
+    ]
   },
   {
     "title": "الأسباب المعينة على الصبر",
@@ -957,7 +1053,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/08/blog-post.html",
     "sourceId": "3114799572447921661",
     "published": "2013-08-01T19:05:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "لا غفر الله لك",
@@ -993,7 +1091,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_10.html",
     "sourceId": "3166063534511892098",
     "published": "2014-08-11T06:09:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "المعتمد بن عباد",
@@ -1001,7 +1101,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_44.html",
     "sourceId": "3193477456569907521",
     "published": "2016-06-20T20:46:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "القيم الاجتماعيّة",
@@ -1039,7 +1141,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/10/blog-post_8.html",
     "sourceId": "3334836960656618679",
     "published": "2012-10-08T16:30:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 10"
+    ]
   },
   {
     "title": "انما المشركون نجس",
@@ -1047,7 +1151,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_3447.html",
     "sourceId": "3364498219741850284",
     "published": "2013-12-10T08:01:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "الإيمان ـ التصديق",
@@ -1055,7 +1161,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/07/blog-post.html",
     "sourceId": "3370941231386754941",
     "published": "2016-07-02T01:13:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "إن الذي يمد رجله، لا يمد يده",
@@ -1083,7 +1191,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_5937.html",
     "sourceId": "3395078711746038463",
     "published": "2013-12-10T07:48:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "اين يكون المجال الحيوي للمسلمين ولدولتهم",
@@ -1131,7 +1241,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_12.html",
     "sourceId": "3555850039978363180",
     "published": "2011-02-13T00:21:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "التصديق مطلق",
@@ -1139,7 +1251,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/07/blog-post_2.html",
     "sourceId": "3561219523626450307",
     "published": "2016-07-03T00:26:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الأمة الوسط",
@@ -1167,7 +1281,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post.html",
     "sourceId": "3771322167166796711",
     "published": "2015-06-25T11:21:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "حسن ظننا بالله",
@@ -1185,7 +1301,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_5.html",
     "sourceId": "3784006424090035400",
     "published": "2014-08-05T09:49:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفاً",
@@ -1203,7 +1321,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_5107.html",
     "sourceId": "3886281024667182204",
     "published": "2013-12-10T07:34:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "هُوَ  وحده",
@@ -1231,7 +1351,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_33.html",
     "sourceId": "4031167200115855981",
     "published": "2014-08-14T04:41:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "حامل الدعوةِ والوقت",
@@ -1239,7 +1361,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_1786.html",
     "sourceId": "4070502367040489448",
     "published": "2011-02-13T00:58:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "الغزو الثقافي وسائل وأهداف",
@@ -1267,7 +1391,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_11.html",
     "sourceId": "4075962883274613612",
     "published": "2014-08-06T08:23:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "الأكثرية و الأقلية",
@@ -1275,7 +1401,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/12/blog-post_4994.html",
     "sourceId": "4081158961691998596",
     "published": "2009-12-13T17:54:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 4"
+    ]
   },
   {
     "title": "قدم الصدق",
@@ -1303,7 +1431,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post.html",
     "sourceId": "4147331794924089071",
     "published": "2015-07-01T11:36:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "سوء الظن",
@@ -1321,7 +1451,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_30.html",
     "sourceId": "4245195928604756775",
     "published": "2015-06-30T17:29:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الإرهاب",
@@ -1329,7 +1461,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_21.html",
     "sourceId": "4266935829181917844",
     "published": "2014-08-21T09:59:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 3"
+    ]
   },
   {
     "title": "ثم ماذا (وبعدين)......؟؟؟؟",
@@ -1337,7 +1471,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_6237.html",
     "sourceId": "4315040547387128106",
     "published": "2013-12-10T07:51:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "تحميل كتاب حديث رمضان 13 كاملاً",
@@ -1345,7 +1481,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/13.html",
     "sourceId": "4337637301810727743",
     "published": "2015-07-15T12:09:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الصيدلة عند المسلمين",
@@ -1383,7 +1521,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_18.html",
     "sourceId": "4358381938262605323",
     "published": "2016-06-20T20:49:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الوعد الحق",
@@ -1411,7 +1551,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_14.html",
     "sourceId": "4428629447785453755",
     "published": "2016-06-14T20:44:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "كتاب حديث رمضان 11",
@@ -1419,7 +1561,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/07/11.html",
     "sourceId": "4463983668228957275",
     "published": "2013-07-08T19:15:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "على فراش الموت",
@@ -1427,7 +1571,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_20.html",
     "sourceId": "4499731751027221134",
     "published": "2015-06-20T16:23:00.005Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الادراك بين سرعة البديهة وبلادة التفكير",
@@ -1435,7 +1581,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_2574.html",
     "sourceId": "4527181758584048260",
     "published": "2011-02-13T00:52:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "الــذُّل",
@@ -1463,7 +1611,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2010/08/8.html",
     "sourceId": "4592865922642450580",
     "published": "2010-08-26T19:26:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "الإسلام",
@@ -1481,7 +1631,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/11/blog-post_2026.html",
     "sourceId": "4664519428401124297",
     "published": "2009-11-25T18:07:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 17"
+    ]
   },
   {
     "title": "التسخير",
@@ -1489,7 +1641,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_72.html",
     "sourceId": "4665094594559228955",
     "published": "2016-06-12T01:23:00.005Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الشعوبية",
@@ -1577,7 +1731,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_25.html",
     "sourceId": "4833439406853931899",
     "published": "2014-08-12T18:56:00.006Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "مفهوم الإشاعة",
@@ -1623,7 +1779,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_27.html",
     "sourceId": "4905215079989537527",
     "published": "2016-06-28T01:36:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "المادية",
@@ -1631,7 +1789,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_8925.html",
     "sourceId": "4914048817465520407",
     "published": "2013-12-10T07:50:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "درس من الهجرة",
@@ -1639,7 +1799,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2017/07/blog-post_18.html",
     "sourceId": "4915118966672086146",
     "published": "2017-07-18T19:40:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 15"
+    ]
   },
   {
     "title": "مقولة أم قاعدة فقهية؟",
@@ -1667,7 +1829,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/07/blog-post.html",
     "sourceId": "4936885575530509567",
     "published": "2013-07-08T20:20:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "مفهوم الشأن العام ومجالاته",
@@ -1675,7 +1839,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/07/blog-post.html",
     "sourceId": "4985511249872832379",
     "published": "2014-07-29T01:34:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "العرب قبل الإسلام",
@@ -1711,7 +1877,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_51.html",
     "sourceId": "5068214755188612528",
     "published": "2016-06-19T15:04:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "النفس التواقة",
@@ -1729,7 +1897,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_1133.html",
     "sourceId": "5108104099638622245",
     "published": "2011-02-13T01:00:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "الملأ",
@@ -1737,7 +1907,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_22.html",
     "sourceId": "5128361002564261210",
     "published": "2016-06-22T14:36:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "قصة العابد الزاهد سفيان الثوري مع الخليفة المنصور",
@@ -1745,7 +1917,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_7.html",
     "sourceId": "5142775891579957397",
     "published": "2016-06-07T20:29:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "دماء المسلمين",
@@ -1753,7 +1927,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_12.html",
     "sourceId": "5189818346499853322",
     "published": "2016-06-12T19:01:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "( وَلاَ يَحِيقُ المَكْرُ السَّيِّئُ إِلاَّ بِأَهْلِهِ )",
@@ -1761,7 +1937,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/07/blog-post_4.html",
     "sourceId": "5218303929814581768",
     "published": "2016-07-05T01:50:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "كلمةُ حقٍ عند سلطان جائر",
@@ -1769,7 +1947,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_7.html",
     "sourceId": "5235307334618429072",
     "published": "2015-07-07T20:25:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الوليد بن المغيرة",
@@ -1797,7 +1977,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_0.html",
     "sourceId": "5363058553056301934",
     "published": "2015-06-17T23:49:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "شهيق الحياة الاول تضحيات والتزامات",
@@ -1815,7 +1997,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_9.html",
     "sourceId": "5457913030966270321",
     "published": "2013-12-10T07:33:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "معاوية والبطريق",
@@ -1823,7 +2007,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_11.html",
     "sourceId": "5520050104128343260",
     "published": "2016-06-12T01:20:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "مدح السخاء وذم البخل",
@@ -1831,7 +2017,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_26.html",
     "sourceId": "5532218999324704284",
     "published": "2016-06-27T00:20:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "حق القوةِ ام قوةُ الحق",
@@ -1839,7 +2027,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/07/blog-post_8313.html",
     "sourceId": "5536155108309960773",
     "published": "2013-07-13T00:08:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "مفهوم سلامة الصدر",
@@ -1927,7 +2117,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_9270.html",
     "sourceId": "5803406179725097758",
     "published": "2011-02-13T00:56:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "تحميل كتاب حديث رمضان 14",
@@ -1935,7 +2127,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/08/14.html",
     "sourceId": "5807700997222890823",
     "published": "2016-08-15T18:52:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الفضيل بن عياض و محمد بن هارون الخرساني",
@@ -1953,7 +2147,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/07/blog-post_30.html",
     "sourceId": "5871733506971117828",
     "published": "2014-07-31T02:41:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "قضية الرزق ، وكيف نظر الإسلام إليها",
@@ -1971,7 +2167,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_29.html",
     "sourceId": "5957429214655419903",
     "published": "2015-06-29T12:04:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الحمار المقدس و الرأي العام",
@@ -1989,7 +2187,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_5.html",
     "sourceId": "5973515198935444359",
     "published": "2015-07-05T16:36:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "قصة وعبرة",
@@ -1997,7 +2197,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post.html",
     "sourceId": "6017071452765135506",
     "published": "2016-06-05T21:17:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الحالة الدينية عند العرب قبل الإسلام",
@@ -2015,7 +2217,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_8.html",
     "sourceId": "6054698721753209365",
     "published": "2015-07-08T11:00:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "مـفـهـوم الانهـزامـيـة",
@@ -2041,7 +2245,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/12/blog-post_13.html",
     "sourceId": "6091090154414004112",
     "published": "2009-12-13T17:46:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 4"
+    ]
   },
   {
     "title": "لعمرك إنهم لفي سكرتهم يعمهون",
@@ -2059,7 +2265,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/12/blog-post_25.html",
     "sourceId": "6198105488626263403",
     "published": "2009-12-25T15:33:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 5"
+    ]
   },
   {
     "title": "الأمة الإسلامية لن تبادَ أبدًا",
@@ -2085,7 +2293,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_6.html",
     "sourceId": "6259475723695658614",
     "published": "2016-06-06T23:58:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "وَقَالُواْ إِن نَّتَّبِعِ الْهُدَى مَعَكَ نُتَخَطَّفْ مِنْ أَرْضِنَآ",
@@ -2103,7 +2313,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_4.html",
     "sourceId": "6305325462412705613",
     "published": "2015-07-04T21:02:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الدنيا سجن المؤمن وجنة الكافر",
@@ -2121,7 +2333,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_21.html",
     "sourceId": "6390423157020142372",
     "published": "2015-06-21T11:54:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "صفة الصليبية المتعصبة",
@@ -2139,7 +2353,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/11/blog-post.html",
     "sourceId": "6444970956159876357",
     "published": "2012-11-29T01:16:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 1"
+    ]
   },
   {
     "title": "مفهوم التضحية عند المسلمين",
@@ -2177,7 +2393,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/08/blog-post_1.html",
     "sourceId": "6529682956788427312",
     "published": "2013-08-01T19:07:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "الفقر وسياسة  الافقار",
@@ -2185,7 +2403,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_6493.html",
     "sourceId": "6541312755929489842",
     "published": "2013-12-10T07:42:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "الفرق بين النصيحة والأمر بالمعروف والنهي عن المنكر",
@@ -2193,7 +2413,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_3.html",
     "sourceId": "6564143336482807511",
     "published": "2016-06-24T01:22:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الوعد والارادة",
@@ -2211,7 +2433,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_20.html",
     "sourceId": "6635714118439176433",
     "published": "2016-06-20T20:44:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الدولة بين الادارة والحكم",
@@ -2219,7 +2443,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_37.html",
     "sourceId": "6640039921196702005",
     "published": "2014-08-06T08:24:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "جسر التطبيع الثقافي مع الصهاينة درية شفيق",
@@ -2227,7 +2453,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_16.html",
     "sourceId": "6652827545498129772",
     "published": "2014-08-16T19:53:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "أحوال النفس",
@@ -2245,7 +2473,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2017/05/blog-post.html",
     "sourceId": "6727544124033183267",
     "published": "2017-05-26T23:28:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 15"
+    ]
   },
   {
     "title": "بين عبد الله بن الزبير وامه اسماء",
@@ -2253,7 +2483,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_17.html",
     "sourceId": "6742209161619886232",
     "published": "2016-06-18T00:35:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "سنن سقوط الأمم",
@@ -2299,7 +2531,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/07/blog-post_28.html",
     "sourceId": "6805477131518835074",
     "published": "2016-07-28T13:04:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "ورثة الكتاب",
@@ -2337,7 +2571,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_22.html",
     "sourceId": "6873923944731392024",
     "published": "2014-08-17T13:38:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "الصناعة عند المسلمين",
@@ -2355,7 +2591,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_38.html",
     "sourceId": "6882275844609657050",
     "published": "2016-06-22T14:40:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "يعرفونه كما يعرفون ابناءهم",
@@ -2411,7 +2649,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_27.html",
     "sourceId": "7130124297231922174",
     "published": "2015-06-27T12:39:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الاعتذار",
@@ -2439,7 +2679,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_87.html",
     "sourceId": "7199856823719781184",
     "published": "2016-06-18T00:38:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "مفهوم الاصطلاح",
@@ -2447,7 +2689,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/11/blog-post_8350.html",
     "sourceId": "7239695546800368270",
     "published": "2009-11-24T21:21:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 4"
+    ]
   },
   {
     "title": "حق القوةِ ام قوةُ الحق",
@@ -2465,7 +2709,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_16.html",
     "sourceId": "7323804618098711677",
     "published": "2016-06-17T00:04:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "احياء الدعوات الهدامة والنزاعات الجاهلية (تابع لموضوع وسائل الغزو الثقافي)",
@@ -2499,7 +2745,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_2.html",
     "sourceId": "7424811190680048256",
     "published": "2015-07-02T11:01:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "الاستقامة",
@@ -2517,7 +2765,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/07/blog-post_16.html",
     "sourceId": "7550194918464549854",
     "published": "2013-07-16T21:15:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "الثقة",
@@ -2525,7 +2775,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/07/blog-post_3.html",
     "sourceId": "7608571454563807281",
     "published": "2016-07-04T01:35:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "جحود النعمة",
@@ -2533,7 +2785,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_4759.html",
     "sourceId": "7623031533768025166",
     "published": "2011-02-13T00:28:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "تحميل كتاب حديث رمضان 12",
@@ -2541,7 +2795,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/02/12.html",
     "sourceId": "7653334728574393444",
     "published": "2016-02-24T21:29:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "من حمل علينا السلاح",
@@ -2559,7 +2815,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/07/blog-post_28.html",
     "sourceId": "7704703991232530382",
     "published": "2014-07-29T02:17:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "الوفاء والمروءة",
@@ -2567,7 +2825,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_70.html",
     "sourceId": "7714570980594195439",
     "published": "2016-06-26T01:15:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "البال",
@@ -2595,7 +2855,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/12/blog-post_7638.html",
     "sourceId": "7831806325064024315",
     "published": "2009-12-25T15:38:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 5"
+    ]
   },
   {
     "title": "المراء",
@@ -2603,7 +2865,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/07/blog-post_6.html",
     "sourceId": "7848510388696251582",
     "published": "2015-07-06T11:38:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "وجعلنا من الماء كل شىءحي افلا يؤمنون",
@@ -2611,7 +2875,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_24.html",
     "sourceId": "7919709397921275289",
     "published": "2015-06-24T12:12:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "النصيحة",
@@ -2619,7 +2885,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_23.html",
     "sourceId": "7972902235391594985",
     "published": "2016-06-24T01:20:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "النِعمة والنَعمة",
@@ -2647,7 +2915,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_7407.html",
     "sourceId": "8029661447651221158",
     "published": "2011-02-13T00:51:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "إياكم ولجام الذل",
@@ -2665,7 +2935,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_66.html",
     "sourceId": "8081873403367282355",
     "published": "2014-08-10T03:01:00.005Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "معركة موهاتش",
@@ -2683,7 +2955,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2012/11/blog-post_3962.html",
     "sourceId": "8118485727430993597",
     "published": "2012-11-29T01:23:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 1"
+    ]
   },
   {
     "title": "بدأ الاسلام غريبا",
@@ -2731,7 +3005,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_8.html",
     "sourceId": "8228537500341786969",
     "published": "2014-08-08T21:31:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "المسلم اخو المسلم",
@@ -2759,7 +3035,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_19.html",
     "sourceId": "8272454131364573130",
     "published": "2016-06-19T15:01:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "قصيدة لفضيلة الشيخ في عزاء الشهيد همام ناصر الدين",
@@ -2775,7 +3053,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/07/blog-post_10.html",
     "sourceId": "8314663606071827482",
     "published": "2013-07-10T21:58:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "الفرق بين يفعلون ويعملون ويصنعون في نهايات الآيات",
@@ -2783,7 +3063,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2017/06/blog-post_3.html",
     "sourceId": "8337689509284848374",
     "published": "2017-06-03T13:25:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 15"
+    ]
   },
   {
     "title": "هل كسر الخواطر حرام شرعًا",
@@ -2811,7 +3093,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/12/blog-post.html",
     "sourceId": "8409187964894780499",
     "published": "2009-12-05T20:49:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 3"
+    ]
   },
   {
     "title": "يعرفونه كما يعرفون ابناءهم",
@@ -2829,7 +3113,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_7.html",
     "sourceId": "8430492306822031441",
     "published": "2014-08-07T10:03:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "الغزو الثقافي وسائل وأهداف",
@@ -2837,7 +3123,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/11/blog-post_9087.html",
     "sourceId": "8446142663215130858",
     "published": "2009-11-23T22:12:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 18"
+    ]
   },
   {
     "title": "وسائل الغزو الثقافي ( التبشير ، الاستشراق )",
@@ -2903,7 +3191,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_36.html",
     "sourceId": "8606988884934793914",
     "published": "2016-06-06T23:59:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "رفقا بالقوارير",
@@ -2911,7 +3201,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_94.html",
     "sourceId": "8607605693607458243",
     "published": "2016-06-30T01:00:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "شكر النعمة",
@@ -2919,7 +3211,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_3592.html",
     "sourceId": "8658723724826976784",
     "published": "2011-02-13T00:26:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "تحرير المرأة حركة مشبوهة ونهج تغريبيى",
@@ -2927,7 +3221,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_57.html",
     "sourceId": "8673963881564900357",
     "published": "2014-08-16T19:53:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "فضيلة الأدب",
@@ -2935,7 +3231,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_4929.html",
     "sourceId": "8680533164675950203",
     "published": "2011-02-13T01:04:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "الطريق إلى الفردوس الأعلى",
@@ -2953,7 +3251,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_6.html",
     "sourceId": "8704032038609446079",
     "published": "2014-08-06T08:22:00.004Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "ولات حين مناص",
@@ -2961,7 +3261,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_62.html",
     "sourceId": "8761255364952811738",
     "published": "2016-06-27T00:23:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الغفلة",
@@ -2979,7 +3281,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2014/08/blog-post_3.html",
     "sourceId": "8794750883152737297",
     "published": "2014-08-04T05:51:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 12"
+    ]
   },
   {
     "title": "العتق من النار",
@@ -3007,7 +3311,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2015/06/blog-post_19.html",
     "sourceId": "8907381186939651759",
     "published": "2015-06-19T15:10:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 13"
+    ]
   },
   {
     "title": "علمانية الاضطرار",
@@ -3015,7 +3321,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_30.html",
     "sourceId": "8922858083615397890",
     "published": "2016-07-01T01:13:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الامة المنصورة الغالبة",
@@ -3023,7 +3331,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_10.html",
     "sourceId": "8943724616859180581",
     "published": "2016-06-10T13:33:00.001Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "العفو مع المقدرة",
@@ -3031,7 +3341,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_15.html",
     "sourceId": "9069337277207717405",
     "published": "2016-06-15T21:58:00.002Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الـــوعـــد",
@@ -3039,7 +3351,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_8611.html",
     "sourceId": "9088545745594906886",
     "published": "2013-12-10T07:43:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   },
   {
     "title": "قصة صاحب النقب { يوم تبلى السرائر }",
@@ -3047,7 +3361,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2016/06/blog-post_8.html",
     "sourceId": "9094926464042023751",
     "published": "2016-06-08T20:50:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 14"
+    ]
   },
   {
     "title": "الإقتصاد الكفائي للدولة",
@@ -3055,7 +3371,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2011/02/blog-post_4767.html",
     "sourceId": "9148910709935182727",
     "published": "2011-02-13T00:37:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 8"
+    ]
   },
   {
     "title": "مفهوم الرقم و العدد",
@@ -3063,7 +3381,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2009/12/blog-post_2484.html",
     "sourceId": "9160326291024057748",
     "published": "2009-12-13T17:53:00Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 4"
+    ]
   },
   {
     "title": "الــوهـــن",
@@ -3071,7 +3391,9 @@ const manifest = [
     "oldUrl": "https://www.hadith-ramadan.com/2013/12/blog-post_9238.html",
     "sourceId": "9178299942758137609",
     "published": "2013-12-10T07:52:00.003Z",
-    "labels": []
+    "labels": [
+      "حديث رمضان 11"
+    ]
   }
 ];
 

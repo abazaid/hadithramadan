@@ -19,14 +19,12 @@ const allSectionLinks = Array.from(
 			.map((label) => [label, { label, href: getLabelHref(label) }]),
 	).values(),
 );
-const prioritySections = ['حديث رمضان 1'];
-const prioritized = prioritySections
-	.map((label) => allSectionLinks.find((item) => item.label === label))
-	.filter(Boolean);
-const sectionLinks = [...prioritized, ...allSectionLinks.filter((item) => !prioritySections.includes(item.label))].slice(
-	0,
-	8,
-);
+const ramadanSections = Array.from({ length: 26 }, (_value, index) => `حديث رمضان ${index + 1}`).map((label) => ({
+	label,
+	href: getLabelHref(label),
+}));
+const extraSections = allSectionLinks.filter((item) => !ramadanSections.some((ramadan) => ramadan.label === item.label));
+const sectionLinks = [...ramadanSections, ...extraSections].slice(0, 26);
 
 const personSchema = {
 	'@context': 'https://schema.org',

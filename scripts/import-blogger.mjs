@@ -12,6 +12,44 @@ const RESERVED_SLUGS = new Set(['', 'blog', 'topics', 'about', 'rss.xml', '404',
 const MANUAL_REDIRECTS = {
 	'/p/blog-page.html': '/books/',
 };
+const ARABIC_ORDINAL_TO_NUMBER = {
+	'الأول': 1,
+	'الاول': 1,
+	'الثاني': 2,
+	'الثالث': 3,
+	'الرابع': 4,
+	'الخامس': 5,
+	'السادس': 6,
+	'السابع': 7,
+	'الثامن': 8,
+	'التاسع': 9,
+	'العاشر': 10,
+	'الحادي عشر': 11,
+	'الحاديعشر': 11,
+	'الثاني عشر': 12,
+	'الثانيعشر': 12,
+	'الثالث عشر': 13,
+	'الثالثعشر': 13,
+	'الرابع عشر': 14,
+	'الرابععشر': 14,
+	'الخامس عشر': 15,
+	'الخامسعشر': 15,
+	'السادس عشر': 16,
+	'السادسعشر': 16,
+	'السابع عشر': 17,
+	'السابععشر': 17,
+	'الثامن عشر': 18,
+	'الثامنعشر': 18,
+	'التاسع عشر': 19,
+	'التاسععشر': 19,
+	'العشرون': 20,
+	'الحادي والعشرون': 21,
+	'الثاني والعشرون': 22,
+	'الثالث والعشرون': 23,
+	'الرابع والعشرون': 24,
+	'الخامس والعشرون': 25,
+	'السادس والعشرون': 26,
+};
 
 const feedPath = findFeedPath(BLOGGER_BLOGS_DIR);
 
@@ -30,6 +68,18 @@ clearGeneratedContent(CONTENT_DIR);
 const slugCounts = new Map();
 const redirectMap = {};
 const manifest = [];
+const ramadanLabelByTitle = new Map();
+
+for (const post of posts) {
+	const titleKey = normalizeTitleKey(post.title);
+	if (!titleKey || ramadanLabelByTitle.has(titleKey)) {
+		continue;
+	}
+	const seededLabel = getRamadanLabel(post.labels) ?? inferRamadanLabel(`${post.title}\n${post.content}`);
+	if (seededLabel) {
+		ramadanLabelByTitle.set(titleKey, seededLabel);
+	}
+}
 
 for (const post of posts) {
 	const baseSlug = slugifyArabic(post.title || post.filename || post.sourceId);
@@ -37,10 +87,19 @@ for (const post of posts) {
 	const filePath = path.join(CONTENT_DIR, `${canonicalSlug}.md`);
 	const oldUrl = post.filename ? new URL(post.filename, SITE_URL).toString() : undefined;
 	const cleanedContent = sanitizeHtml(post.content, post.title);
+	const titleKey = normalizeTitleKey(post.title);
+	let normalizedLabels = enrichRamadanLabels(post.labels, `${post.title}\n${cleanedContent}`);
+	if (!getRamadanLabel(normalizedLabels) && ramadanLabelByTitle.has(titleKey)) {
+		normalizedLabels = [...normalizedLabels, ramadanLabelByTitle.get(titleKey)];
+	}
+	const ramadanLabel = getRamadanLabel(normalizedLabels);
+	if (ramadanLabel && titleKey) {
+		ramadanLabelByTitle.set(titleKey, ramadanLabel);
+	}
 	const description = buildDescription({
 		title: post.title,
 		content: cleanedContent,
-		labels: post.labels,
+		labels: normalizedLabels,
 	});
 	const frontmatter = [
 		'---',
@@ -51,7 +110,7 @@ for (const post of posts) {
 		`canonicalSlug: ${yamlString(canonicalSlug)}`,
 		`sourceId: ${yamlString(post.sourceId)}`,
 		oldUrl ? `oldUrl: ${yamlString(oldUrl)}` : null,
-		post.labels.length > 0 ? `labels: [${post.labels.map(yamlString).join(', ')}]` : 'labels: []',
+		normalizedLabels.length > 0 ? `labels: [${normalizedLabels.map(yamlString).join(', ')}]` : 'labels: []',
 		'draft: false',
 		'---',
 		'',
@@ -73,7 +132,7 @@ for (const post of posts) {
 		oldUrl,
 		sourceId: post.sourceId,
 		published: post.published,
-		labels: post.labels,
+		labels: normalizedLabels,
 	});
 }
 
@@ -450,6 +509,80 @@ function buildDescription({ title, content, labels }) {
 	}
 
 	return 'مقالة من مدونة الشيخ جواد عبد المحسن - حديث رمضان، تتناول قضايا إسلامية وسياسية واقتصادية بطرح فكري وتحليلي واضح.';
+}
+
+function enrichRamadanLabels(labels, sourceText) {
+	const uniqueLabels = Array.from(new Set((labels ?? []).map((label) => cleanHeadingText(label)).filter(Boolean)));
+	if (getRamadanLabel(uniqueLabels)) {
+		return uniqueLabels;
+	}
+
+	const inferredLabel = inferRamadanLabel(sourceText);
+	if (!inferredLabel) {
+		return uniqueLabels;
+	}
+
+	return [...uniqueLabels, inferredLabel];
+}
+
+function inferRamadanLabel(sourceText) {
+	if (!sourceText) {
+		return null;
+	}
+
+	const normalized = normalizeDigits(sourceText);
+	const matches = [
+		...normalized.matchAll(/(?:كتاب\s*)?(?:حديث|حيث)\s*رمضان\s*(?:[-–—:]|\(|\[)?\s*(\d{1,2})\s*(?:\)|\])?/giu),
+	];
+	if (matches.length === 0) {
+		const partMatches = [...normalized.matchAll(/(?:الجزء|جزء)\s*(?:ال)?([^\s<)]+(?:\s+[^\s<)]+)*)/giu)];
+		if (partMatches.length === 0) {
+			return null;
+		}
+		const lastPart = cleanHeadingText(partMatches[partMatches.length - 1][1]).replace(/[^\p{L}\s]/gu, '');
+		const partNumber = ARABIC_ORDINAL_TO_NUMBER[lastPart] ?? null;
+		if (!partNumber || partNumber < 1 || partNumber > 26) {
+			return null;
+		}
+		return `حديث رمضان ${partNumber}`;
+	}
+
+	// Use the last mention because blog posts usually sign with the book number at the end.
+	const last = matches[matches.length - 1];
+	const number = Number.parseInt(last[1], 10);
+	if (!Number.isFinite(number) || number < 1 || number > 26) {
+		return null;
+	}
+
+	return `حديث رمضان ${number}`;
+}
+
+function normalizeDigits(value) {
+	return value
+		.replace(/[٠-٩]/g, (char) => String(char.charCodeAt(0) - 0x0660))
+		.replace(/[۰-۹]/g, (char) => String(char.charCodeAt(0) - 0x06f0));
+}
+
+function getRamadanLabel(labels) {
+	for (const label of labels ?? []) {
+		const match = cleanHeadingText(label).match(/^حديث رمضان (\d{1,2})$/u);
+		if (!match) {
+			continue;
+		}
+		const number = Number.parseInt(match[1], 10);
+		if (Number.isFinite(number) && number >= 1 && number <= 26) {
+			return `حديث رمضان ${number}`;
+		}
+	}
+	return null;
+}
+
+function normalizeTitleKey(value) {
+	return cleanHeadingText(value)
+		.toLowerCase()
+		.replace(/[^\p{L}\p{N}\s]/gu, '')
+		.replace(/\s+/g, ' ')
+		trim();
 }
 
 function extractPlainText(html) {

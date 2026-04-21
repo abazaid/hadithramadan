@@ -8,7 +8,8 @@ import { getLabelHref, getPostUrl, getSortedPosts, slugifyLabel } from '../../li
 
 export async function getStaticPaths() {
 	const posts = await getSortedPosts();
-	const labels = Array.from(new Set(posts.flatMap((post) => post.data.labels)));
+	const ramadanLabels = Array.from({ length: 26 }, (_value, index) => `حديث رمضان ${index + 1}`);
+	const labels = Array.from(new Set([...ramadanLabels, ...posts.flatMap((post) => post.data.labels)]));
 
 	return labels.map((label) => ({
 		params: { slug: slugifyLabel(label) },
